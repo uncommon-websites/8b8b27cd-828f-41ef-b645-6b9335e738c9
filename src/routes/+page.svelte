@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Better referrals. Less chasing."
+	subtitle="Get introductions that actually turn into business."
+	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by professional service leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/deloitte.com',
+		'https://logo.clearbit.com/pwc.com',
+		'https://logo.clearbit.com/kpmg.com',
+		'https://logo.clearbit.com/ey.com'
+	]}
+/>
 
 <Summary
 	generating
