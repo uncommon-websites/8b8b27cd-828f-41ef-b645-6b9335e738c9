@@ -24,18 +24,18 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "Pioneer AI networking",
+			description: "Shape the future of professional referrals in a $45B market using cutting-edge conversational AI.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Accelerated growth",
+			description: "Join our mission-critical team where your work directly impacts 100,000+ monthly AI-matched introductions.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Meaningful impact",
+			description: "Help professionals build authentic referral networks 10x faster than traditional cold outreach.",
 			icon: IconHeart
 		}
 	];
@@ -43,38 +43,22 @@
 	const openings: JobOpening[] = [
 		// Engineering
 		{
-			title: "Senior Frontend Developer",
+			title: "AI Engineer - Conversational AI",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Backend Engineer",
+			title: "Backend Engineer - Voice Systems",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Design Engineer",
+			title: "Full Stack Developer",
 			department: "Engineering",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-
-		// Design
-		{
-			title: "UX/UI Designer",
-			department: "Design",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-		{
-			title: "Product Designer",
-			department: "Design",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
@@ -82,38 +66,47 @@
 
 		// Product
 		{
-			title: "Product Manager",
+			title: "Product Manager - AI Matching",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Product Analyst",
+			title: "UX Researcher - Voice Interfaces",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 
-		// Marketing
+		// Business Development
 		{
-			title: "Marketing Specialist",
-			department: "Marketing",
+			title: "Partnership Manager - BNI Relations",
+			department: "Business Development",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Content Strategist",
-			department: "Marketing",
+			title: "Customer Success Manager",
+			department: "Business Development",
+			location: "Remote",
+			type: "Full-time",
+			url: "#"
+		},
+
+		// Operations
+		{
+			title: "Data Analyst - Matching Insights",
+			department: "Operations",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Social Media Manager",
-			department: "Marketing",
+			title: "Operations Specialist",
+			department: "Operations",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
@@ -122,68 +115,68 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
+			name: "Sarah Chen",
+			position: "AI Engineer",
 			company: "Engineering Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
+				"Working on Bruce's natural language understanding systems is incredibly fulfilling. I get to solve complex AI challenges while knowing our matching algorithms help professionals build authentic referral relationships that actually work.",
 			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-an-asian-amer.webp"
 		},
 		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
+			name: "Marcus Thompson",
+			position: "Product Manager",
+			company: "Product Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
+				"Bruce gave me the opportunity to lead product initiatives that impact thousands of users daily. The rapid growth and technical innovation here has accelerated my career beyond what I imagined possible.",
 			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-black-man-a.webp"
 		},
 		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
+			name: "Maria Rodriguez",
+			position: "Business Development Specialist",
+			company: "Business Development",
 			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
+				"The culture at Bruce is unlike anywhere I've worked. We genuinely care about helping professionals succeed, and seeing our users eliminate cold outreach while building meaningful partnerships makes every day rewarding.",
 			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-latina-woma.webp"
 		}
 	];
 
 	const processSteps = [
 		{
 			step: 1,
-			title: "Apply",
+			title: "Submit application",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Apply through our portal with your resume. We review every application personally and respond within 48 hours."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Voice discovery call",
+			description: "Experience our voice-first approach firsthand in a 30-minute conversation about your background and our mission."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Start building connections",
+			description: "Join Bruce and help transform how professionals build referral networks through AI-powered introductions."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Quality over quantity",
+			description: "We prioritize meaningful referral connections over mass outreach, ensuring every introduction creates mutual value."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Voice-first philosophy",
+			description: "We believe in human conversation as the foundation of trust, using AI to enhance rather than replace personal connection."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Mutual benefit mindset",
+			description: "Every feature we build emphasizes win-win outcomes, from our double opt-in system to bi-directional matching."
 		}
 	];
 </script>
@@ -191,15 +184,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Where AI meets authentic connections"
+	subtitle="Join us in revolutionizing professional networking through voice-first AI technology. Help us eliminate cold outreach and create meaningful business partnerships that transform how professionals build referral networks."
+	imageSrc="/generated/image-a-diverse-team-of-professionals-engaged-.webp"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+<section class={SECTION_BASE_CLASSES}>
+	<SectionHeader title="Why join Bruce?" subtitle="Build the future of AI-powered professional networking" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -209,12 +201,12 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
@@ -232,7 +224,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 

@@ -2,6 +2,7 @@
 	// Components
 	import Summary from "$lib/components/layout/Summary.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
+	import UseCases from "$lib/components/layout/UseCases.svelte";
 	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
@@ -26,65 +27,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Bruce uses AI-powered matching to connect business professionals with perfect referral partners. We automate warm introductions through voice-first conversations, helping you build high-quality referral networks 10x faster than cold outreach."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Lena Torres",
+			position: "Managing Partner",
+			company: "Altura Consulting",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"Bruce saved me 15 hours a week I was wasting on cold outreach. The AI matching is incredible—I've closed three major deals from referrals in just two months. My referral pipeline has never been stronger.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-cheerful-businesswoman-wearing-a-heads.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Trevor McNally",
+			position: "Director of Sales",
+			company: "CoreBridge Financial",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"I was skeptical about AI networking, but Bruce eliminated the guesswork completely. No more awkward cold calls or dead-end connections. Every introduction is pre-qualified and mutually beneficial—it's like having a personal matchmaker for business.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-man-sitting-in-a-bustling.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Cassandra Wright",
+			position: "Business Development Lead",
+			company: "Pinnacle Advisory",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"Bruce transformed our referral ROI from break-even to 300% profit in six months. The voice-first approach builds real relationships, not just connections. We've generated over $2M in new business from Bruce introductions.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-confident-businesswoman-standing-in-a-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="How Bruce works"
+	subtitle="AI-powered features that transform your referral networking"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "AI-powered compatibility matching",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Our proprietary AI analyzes business needs and goals to identify perfect referral partners with percentage compatibility scores."
 		},
 		{
-			title: "Data Analysis",
+			title: "Voice-first discovery calls",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Complete 5-minute discovery calls with zero preparation while our AI crafts your professional profile from natural conversation."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Double opt-in referral system",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Ensure mutual interest and consent with our secure double opt-in system that protects both parties in every introduction."
+		},
+		{
+			title: "Automated warm introductions",
+			description:
+				"Skip cold outreach entirely with AI-generated personalized introductions that create meaningful professional connections."
+		},
+		{
+			title: "Business compatibility analysis",
+			description:
+				"Advanced algorithms assess complementary business relationships and identify mutual referral opportunities within your network."
+		},
+		{
+			title: "10x faster networking results",
+			description:
+				"Build high-quality referral networks in minutes instead of months through intelligent matching and automated relationship building."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+
+<UseCases
+	title="Use cases"
+	subtitle="Real-world applications for professional referral networking"
+	useCases={[
+		{
+			title: "Accelerate BNI chapter networking",
+			description: "Transform traditional BNI chapter meetings into high-impact networking sessions. Bruce identifies the most valuable referral connections within your chapter before you even meet, helping you prioritize conversations and maximize your chapter investment.",
+			image: "/generated/image-a-group-of-business-professionals-engagi.webp",
+			link: {
+				href: "/use-cases/bni-networking",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Convert cold calls into warm introductions",
+			description: "Skip the awkward cold outreach phase entirely. Bruce's AI-powered matching connects you with pre-qualified referral partners through voice-first discovery calls, turning every conversation into a meaningful business relationship.",
+			image: "/generated/image-a-professional-woman-standing-in-a-moder.webp",
+			link: {
+				href: "/use-cases/warm-introductions",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Build strategic partnership networks",
+			description: "Develop complementary business relationships that generate consistent referrals. Bruce analyzes business compatibility to identify mutual referral opportunities, helping professional service providers create sustainable revenue partnerships.",
+			image: "/generated/image-two-business-professionals-in-a-meeting-.webp",
+			link: {
+				href: "/use-cases/strategic-partnerships",
+				label: "Learn more"
+			}
+		}
+	]}
+/>
+
+<AboutTeaser />
+<CallToAction />

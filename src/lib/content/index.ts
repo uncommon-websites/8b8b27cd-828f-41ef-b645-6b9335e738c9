@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Bruce",
+	description: "AI-powered referral partnerships that analyze business compatibility and automate warm introductions, helping professionals build referral networks 10x faster than traditional cold outreach.",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://getbruce.ai",
 	fontFamily: "Inter Variable"
 };

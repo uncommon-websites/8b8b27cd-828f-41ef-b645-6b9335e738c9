@@ -1,6 +1,6 @@
 <script lang="ts">
 	// Types
-	import type { PageProps } from "./$types";
+	import type { PageData } from "./$types";
 
 	// Components
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
@@ -11,13 +11,13 @@
 
 	// Icons
 	import IconUsers from "~icons/lucide/users";
-	import IconClipboardList from "~icons/lucide/clipboard-list";
+	import IconClipboard from "~icons/lucide/clipboard";
 	import IconBarChart from "~icons/lucide/bar-chart";
-	import IconShieldCheck from "~icons/lucide/shield-check";
+	import IconShield from "~icons/lucide/shield";
 	import IconTrendingUp from "~icons/lucide/trending-up";
 	import IconShieldAlert from "~icons/lucide/shield-alert";
 	import IconPresentation from "~icons/lucide/presentation";
-	import IconFileCheck from "~icons/lucide/file-check";
+	import IconFileText from "~icons/lucide/file-text";
 	import IconCode from "~icons/lucide/code";
 	import IconCpu from "~icons/lucide/cpu";
 	import IconUserGroup from "~icons/lucide/user-group";
@@ -28,7 +28,7 @@
 	import IconSettings from "~icons/lucide/settings";
 
 	// Props
-	const { data }: PageProps = $props();
+	const { data }: { data: PageData } = $props();
 
 	// Icon mapping
 	const iconMap: Record<string, any> = {
