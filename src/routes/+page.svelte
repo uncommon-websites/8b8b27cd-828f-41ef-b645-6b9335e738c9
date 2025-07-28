@@ -8,6 +8,13 @@
 	import AlternatingFeatures from "$lib/components/layout/AlternatingFeatures.svelte";
 </script>
 
+<Hero
+	title="Better referrals. Less chasing."
+	subtitle="Get introductions that actually turn into business."
+	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
+	centered={false}
+/>
+
 <AlternatingFeatures
 	title="How it works"
 	subtitle="AI-powered referral networking in four simple steps"
@@ -37,7 +44,8 @@
 		{
 			step: 3,
 			title: "Review and confirm connections",
-			description: "You'll get a list of connections that you'll review and next steps on how to get connected",
+			description:
+				"You'll get a list of connections that you'll review and next steps on how to get connected",
 			features: [
 				"Review profiles of potential referral partners",
 				"Choose which connections interest you most",
@@ -48,7 +56,8 @@
 		{
 			step: 4,
 			title: "Personalized profile",
-			description: "Bruce will create a personalized professional profile for you based on the information you provide and we'll use this to introduce you to potential referrals",
+			description:
+				"Bruce will create a personalized professional profile for you based on the information you provide and we'll use this to introduce you to potential referrals",
 			features: [
 				"Bruce crafts your bio from your conversation",
 				"Use AI to refine your profile",
@@ -59,12 +68,6 @@
 	]}
 />
 
-<Hero
-	title="Better referrals. Less chasing."
-	subtitle="Get introductions that actually turn into business."
-	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
-	centered={false}
-/>
 <Summary
 	title="What we do"
 	text="Bruce uses AI-powered matching to connect business professionals with perfect referral partners. We automate warm introductions through voice-first conversations, helping you build high-quality referral networks 10x faster than cold outreach."
@@ -113,7 +116,8 @@
 	useCases={[
 		{
 			title: "Accelerate BNI chapter networking",
-			description: "Transform traditional BNI chapter meetings into high-impact networking sessions. Bruce identifies the most valuable referral connections within your chapter before you even meet, helping you prioritize conversations and maximize your chapter investment.",
+			description:
+				"Transform traditional BNI chapter meetings into high-impact networking sessions. Bruce identifies the most valuable referral connections within your chapter before you even meet, helping you prioritize conversations and maximize your chapter investment.",
 			image: "/generated/image-a-group-of-business-professionals-engagi.webp",
 			link: {
 				href: "/use-cases/bni-networking",
@@ -122,7 +126,8 @@
 		},
 		{
 			title: "Convert cold calls into warm introductions",
-			description: "Skip the awkward cold outreach phase entirely. Bruce's AI-powered matching connects you with pre-qualified referral partners through voice-first discovery calls, turning every conversation into a meaningful business relationship.",
+			description:
+				"Skip the awkward cold outreach phase entirely. Bruce's AI-powered matching connects you with pre-qualified referral partners through voice-first discovery calls, turning every conversation into a meaningful business relationship.",
 			image: "/generated/image-a-professional-woman-standing-in-a-moder.webp",
 			link: {
 				href: "/use-cases/warm-introductions",
@@ -131,7 +136,8 @@
 		},
 		{
 			title: "Build strategic partnership networks",
-			description: "Develop complementary business relationships that generate consistent referrals. Bruce analyzes business compatibility to identify mutual referral opportunities, helping professional service providers create sustainable revenue partnerships.",
+			description:
+				"Develop complementary business relationships that generate consistent referrals. Bruce analyzes business compatibility to identify mutual referral opportunities, helping professional service providers create sustainable revenue partnerships.",
 			image: "/generated/image-two-business-professionals-in-a-meeting-.webp",
 			link: {
 				href: "/use-cases/strategic-partnerships",
