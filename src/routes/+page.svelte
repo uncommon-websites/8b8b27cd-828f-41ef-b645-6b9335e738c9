@@ -3,10 +3,7 @@
 	import Summary from "$lib/components/layout/Summary.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
 	import UseCases from "$lib/components/layout/UseCases.svelte";
-	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
-	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
 </script>
 
@@ -16,51 +13,9 @@
 	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
 	centered={false}
 />
-<LogoScroller 
-	label="Trusted by professional service leaders"
-	logoUrls={[
-		'https://logo.clearbit.com/deloitte.com',
-		'https://logo.clearbit.com/pwc.com',
-		'https://logo.clearbit.com/kpmg.com',
-		'https://logo.clearbit.com/ey.com'
-	]}
-/>
-
 <Summary
 	title="What we do"
 	text="Bruce uses AI-powered matching to connect business professionals with perfect referral partners. We automate warm introductions through voice-first conversations, helping you build high-quality referral networks 10x faster than cold outreach."
-/>
-
-<Testimonials
-	testimonials={[
-		{
-			name: "Lena Torres",
-			position: "Managing Partner",
-			company: "Altura Consulting",
-			quote:
-				"Bruce saved me 15 hours a week I was wasting on cold outreach. The AI matching is incredible—I've closed three major deals from referrals in just two months. My referral pipeline has never been stronger.",
-			image:
-				"/generated/image-a-cheerful-businesswoman-wearing-a-heads.webp"
-		},
-		{
-			name: "Trevor McNally",
-			position: "Director of Sales",
-			company: "CoreBridge Financial",
-			quote:
-				"I was skeptical about AI networking, but Bruce eliminated the guesswork completely. No more awkward cold calls or dead-end connections. Every introduction is pre-qualified and mutually beneficial—it's like having a personal matchmaker for business.",
-			image:
-				"/generated/image-a-professional-man-sitting-in-a-bustling.webp"
-		},
-		{
-			name: "Cassandra Wright",
-			position: "Business Development Lead",
-			company: "Pinnacle Advisory",
-			quote:
-				"Bruce transformed our referral ROI from break-even to 300% profit in six months. The voice-first approach builds real relationships, not just connections. We've generated over $2M in new business from Bruce introductions.",
-			image:
-				"/generated/image-a-confident-businesswoman-standing-in-a-.webp"
-		}
-	]}
 />
 
 <Features
@@ -134,5 +89,4 @@
 	]}
 />
 
-<AboutTeaser />
 <CallToAction />
