@@ -1,10 +1,12 @@
-# Task: Remove testimonials, About Teaser, Logo Scroller from home page
+# Task: Add Alternating Feature Section Above Hero
 
-- [x] Remove Testimonials component from home page
-- [x] Remove AboutTeaser component from home page  
-- [x] Remove LogoScroller component from home page
-- [x] Remove unused imports from home page
+- [x] View current design system files (theme.css, app.css, typography.css)
+- [x] Create new AlternatingFeatures component with proper alternating layout
+- [x] Generate images for each feature step
+- [x] Add Bruce-specific content for the "How it works" process
+- [x] Import and add component to main page above Hero
+- [x] Test responsive behavior and alternating layout
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
 
 ## Task Complete ✅
-All requested components have been successfully removed from the home page. The page now has a cleaner, more focused structure with Hero → Summary → Features → Use Cases → Call to Action flow.
+Successfully created and added an alternating feature section above the hero that showcases Bruce's 4-step process. The component uses proper design system classes, alternating layout, and Bruce-specific content with generated images for each step.
