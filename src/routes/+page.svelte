@@ -28,7 +28,7 @@
 				"Share your ideal referral partner criteria",
 				"No preparation needed"
 			],
-			imageSrc: "/generated/image-a-professional-making-a-phone-call-at-a-.webp"
+			visualization: "phone"
 		},
 		{
 			step: 2,
@@ -39,7 +39,7 @@
 				"Finds complementary businesses in your network",
 				"Prioritizes matches with highest mutual benefit"
 			],
-			imageSrc: "/generated/image-business-professionals-engaged-in-a-coll.webp"
+			visualization: "matching"
 		},
 		{
 			step: 3,
@@ -51,7 +51,7 @@
 				"Choose which connections interest you most",
 				"Double opt-in ensures mutual interest"
 			],
-			imageSrc: "/generated/image-a-personalized-business-profile-creation.webp"
+			visualization: "review"
 		},
 		{
 			step: 4,
@@ -63,7 +63,7 @@
 				"Use AI to refine your profile",
 				"Bruce uses your profile to personalize introductions"
 			],
-			imageSrc: "/generated/image-personalized-business-profile-creation-p.webp"
+			visualization: "profile"
 		}
 	]}
 />
