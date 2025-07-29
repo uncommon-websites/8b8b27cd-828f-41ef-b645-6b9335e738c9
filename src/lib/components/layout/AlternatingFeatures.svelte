@@ -236,27 +236,45 @@
 						index % 2 === 1 ? "md:col-start-1" : ""
 					]}>
 						{#if feature.visualization === 'phone'}
-							<div class="w-full h-80 flex items-center justify-center rounded-lg" style="background: linear-gradient(135deg, #E8F5E8 0%, #D4F1D4 100%);">
-								<div class="relative">
-									<!-- Phone mockup -->
-									<div class="w-48 h-80 bg-gray-900 rounded-3xl p-2">
-										<div class="w-full h-full bg-black rounded-2xl flex flex-col items-center justify-center text-white">
-											<!-- Call interface -->
-											<div class="text-center space-y-4">
-												<div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mb-4">
-													<svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-														<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-													</svg>
-												</div>
-												<div class="text-lg font-medium">Bruce</div>
-												<div class="text-sm text-gray-300">03:31</div>
+							<div class="w-full h-80 flex items-center justify-center">
+								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
+									<div class="text-center mb-6">
+										<div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+											<svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+												<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+											</svg>
+										</div>
+										<h4 class="font-medium text-gray-900">Discovery Call</h4>
+									</div>
+									<div class="space-y-4">
+										<div class="flex items-center justify-between p-3 bg-green-50 rounded-lg">
+											<div class="flex items-center gap-3">
+												<div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+												<span class="text-sm text-gray-700">Call in progress</span>
 											</div>
+											<span class="text-sm font-medium text-green-600">03:31</span>
+										</div>
+										<div class="p-3 bg-gray-50 rounded-lg">
+											<div class="text-xs text-gray-600 mb-2">Bruce is asking:</div>
+											<div class="text-sm text-gray-900">"What type of clients do you typically work with?"</div>
+										</div>
+										<div class="flex justify-center gap-4">
+											<button class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center">
+												<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+													<path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+												</svg>
+											</button>
+											<button class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
+												<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+													<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+												</svg>
+											</button>
 										</div>
 									</div>
 								</div>
 							</div>
 						{:else if feature.visualization === 'matching'}
-							<div class="w-full h-80 flex items-center justify-center rounded-lg" style="background: linear-gradient(135deg, #F3E8FF 0%, #E9D5FF 100%);">
+							<div class="w-full h-80 flex items-center justify-center">
 								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
 									<div class="text-center mb-6">
 										<div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -292,7 +310,7 @@
 								</div>
 							</div>
 						{:else if feature.visualization === 'review'}
-							<div class="w-full h-80 flex items-center justify-center rounded-lg" style="background: linear-gradient(135deg, #E0F2FE 0%, #BAE6FD 100%);">
+							<div class="w-full h-80 flex items-center justify-center">
 								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
 									<div class="text-center mb-6">
 										<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -353,7 +371,7 @@
 								</div>
 							</div>
 						{:else if feature.visualization === 'profile'}
-							<div class="w-full h-80 flex items-center justify-center rounded-lg" style="background: linear-gradient(135deg, #F3E8FF 0%, #E9D5FF 100%);">
+							<div class="w-full h-80 flex items-center justify-center">
 								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
 									<div class="text-center mb-4">
 										<div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">

@@ -1,24 +1,19 @@
-# Task: Create Custom Visualizations for Alternating Feature Sections
+# Task: Remove Colored Containers and Make Discovery Call Visual Card-like
 
-- [x] Generate 4 custom visualizations inspired by the provided mockup style
-  - [x] Step 1: Discovery call visualization (phone interface with Bruce branding)
-  - [x] Step 2: Smart matching visualization (AI matching interface with compatibility scores)
-  - [x] Step 3: Review connections visualization (review interface with profile cards)
-  - [x] Step 4: Personalized profile visualization (profile creation interface)
-- [x] Update AlternatingFeatures component to use new visualizations
+- [x] Remove colored gradient backgrounds from all visualizations
+- [x] Redesign phone visualization to be card-like and squarish
+- [x] Ensure consistent dimensions across all visualizations
+- [x] Update phone visualization to match other card styles
+- [x] Test visual consistency across all feature visualizations
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
 
 ## Task Complete ✅
-Successfully created custom visualizations for the alternating feature sections inspired by the provided mockup style:
+Successfully updated the AlternatingFeatures component:
 
-1. **Phone Visualization**: Clean phone interface mockup showing Bruce app with incoming call screen, green call button, and modern UI design on a soft mint green gradient background
-2. **Matching Visualization**: AI matching dashboard interface with compatibility percentage scores (98%, 94%, 87%), clean cards layout with purple accent colors on a soft lavender gradient background
-3. **Review Visualization**: Review connections interface showing profile cards with checkboxes, clean list design with blue accent colors on a soft blue gradient background
-4. **Profile Visualization**: Professional profile creation interface with user avatar, bio text, and skill tags on a purple gradient background
+1. **Removed colored gradient backgrounds**: Eliminated all gradient background containers (green, purple, blue) from all visualizations
+2. **Redesigned discovery call visual**: Transformed the tall phone mockup into a card-like interface similar to other visualizations
+3. **Consistent dimensions**: All visualizations now use the same w-80 max-w-full white card container with h-80 height
+4. **Card-like styling**: Discovery call now features a clean card interface with call status, conversation preview, and action buttons
+5. **Visual consistency**: All four visualizations (phone, matching, review, profile) now have identical card styling and dimensions
 
-The visualizations match the inspiration image style with:
-- Clean, modern UI mockups with rounded corners
-- Soft gradient backgrounds (mint green, lavender, blue, purple)
-- Consistent design language with Bruce branding
-- Professional interface elements that show the actual product workflow
-- Design system compliance with no shadows, custom CSS, or arbitrary values
+The visualizations now have a clean, consistent appearance without colored containers while maintaining their distinct functionality representations.
