@@ -1,18 +1,19 @@
-# Task: Update Home Page Layout and Navigation
+# Task: Remove Colored Containers and Make Discovery Call Visual Card-like
 
-- [x] Replace AlternatingFeatures with regular Features component on home page
-- [x] Remove UseCases component from home page
-- [x] Update navigation.ts to remove pricing and careers from nav (keep in footer)
+- [x] Remove colored gradient backgrounds from all visualizations
+- [x] Redesign phone visualization to be card-like and squarish
+- [x] Ensure consistent dimensions across all visualizations
+- [x] Update phone visualization to match other card styles
+- [x] Test visual consistency across all feature visualizations
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
 
 ## Task Complete ✅
+Successfully updated the AlternatingFeatures component:
 
-Successfully updated the home page layout and navigation:
+1. **Removed colored gradient backgrounds**: Eliminated all gradient background containers (green, purple, blue) from all visualizations
+2. **Redesigned discovery call visual**: Transformed the tall phone mockup into a card-like interface similar to other visualizations
+3. **Consistent dimensions**: All visualizations now use the same w-80 max-w-full white card container with h-80 height
+4. **Card-like styling**: Discovery call now features a clean card interface with call status, conversation preview, and action buttons
+5. **Visual consistency**: All four visualizations (phone, matching, review, profile) now have identical card styling and dimensions
 
-1. **Replaced AlternatingFeatures with Features**: Changed the "How it works" section from alternating layout to regular bento grid layout while maintaining the same content and converting the step-based features to simple feature cards.
-
-2. **Removed UseCases section**: Completely removed the use cases section from the home page, including the import statement and component usage.
-
-3. **Updated navigation**: Modified navigation.ts to remove "pricing" and "careers" from the main navigation (showInNav: false) while keeping them available in the footer (showInFooter: true).
-
-4. **Design system compliance**: All changes use existing design system classes and components without introducing custom CSS, shadows, or arbitrary values. The Features component uses the established bento grid system with proper design system variables.
+The visualizations now have a clean, consistent appearance without colored containers while maintaining their distinct functionality representations.

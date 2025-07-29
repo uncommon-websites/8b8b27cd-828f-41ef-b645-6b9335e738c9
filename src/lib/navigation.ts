@@ -57,7 +57,7 @@ export const navigation: NavItem[] = [
 	{
 		label: "Pricing",
 		href: "/pricing",
-		showInNav: false,
+		showInNav: true,
 		showInFooter: false
 	},
 	
@@ -81,7 +81,7 @@ export const navigation: NavItem[] = [
 			{
 				label: "Careers",
 				href: "/careers",
-				showInNav: false,
+				showInNav: true,
 				showInFooter: true
 			}
 		]
