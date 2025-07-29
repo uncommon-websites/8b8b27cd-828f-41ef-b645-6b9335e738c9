@@ -197,44 +197,39 @@
 	<div class="container mx-auto">
 		<SectionHeader {title} {subtitle} />
 		
-		<div class="section-mt-sm space-y-16 md:space-y-20 lg:space-y-24">
-			{#each features as feature, index}
-				<div class={[
-					"grid gap-8 md:gap-12 lg:gap-16 items-center",
-					"md:grid-cols-2",
-					index % 2 === 1 ? "md:grid-flow-col-dense" : ""
-				]}>
-					<!-- Content -->
-					<div class={[
-						"space-y-6",
-						index % 2 === 1 ? "md:col-start-2" : ""
-					]}>
-						<div class="flex items-center gap-4">
-							<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground text-headline font-medium">
-								{feature.step}
+		<div class="section-mt-sm">
+			<div class="grid gap-8 md:gap-12 lg:gap-16 md:grid-cols-2">
+				<!-- Steps Column -->
+				<div class="space-y-12 md:space-y-16">
+					{#each features as feature}
+						<div class="space-y-6">
+							<div class="flex items-center gap-4">
+								<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground text-headline font-medium">
+									{feature.step}
+								</div>
+								<h3 class="text-title2 text-foreground">{feature.title}</h3>
 							</div>
-							<h3 class="text-title2 text-foreground">{feature.title}</h3>
+							
+							<p class="text-callout text-muted-foreground">
+								{feature.description}
+							</p>
+							
+							<ul class="space-y-3">
+								{#each feature.features as featureItem}
+									<li class="flex items-start gap-3">
+										<div class="mt-2 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0"></div>
+										<span class="text-body text-foreground">{featureItem}</span>
+									</li>
+								{/each}
+							</ul>
 						</div>
-						
-						<p class="text-callout text-muted-foreground">
-							{feature.description}
-						</p>
-						
-						<ul class="space-y-3">
-							{#each feature.features as featureItem}
-								<li class="flex items-start gap-3">
-									<div class="mt-2 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0"></div>
-									<span class="text-body text-foreground">{featureItem}</span>
-								</li>
-							{/each}
-						</ul>
-					</div>
-					
-					<!-- Visualization -->
-					<div class={[
-						"relative overflow-hidden rounded-lg",
-						index % 2 === 1 ? "md:col-start-1" : ""
-					]}>
+					{/each}
+				</div>
+				
+				<!-- Visualizations Column -->
+				<div class="space-y-12 md:space-y-16">
+					{#each features as feature}
+						<div class="relative overflow-hidden rounded-lg">
 						{#if feature.visualization === 'phone'}
 							<div class="w-full h-80 flex items-center justify-center">
 								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
@@ -391,9 +386,10 @@
 								</div>
 							</div>
 						{/if}
-					</div>
+						</div>
+					{/each}
 				</div>
-			{/each}
+			</div>
 		</div>
 	</div>
 </section>
