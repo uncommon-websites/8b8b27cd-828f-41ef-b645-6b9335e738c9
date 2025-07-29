@@ -44,8 +44,7 @@
 		{
 			step: 3,
 			title: "Review and confirm connections",
-			description:
-				"You'll get a list of connections that you'll review and next steps on how to get connected",
+			description: "Review potential partners and choose your connections",
 			features: [
 				"Review profiles of potential referral partners",
 				"Choose which connections interest you most",
@@ -56,8 +55,7 @@
 		{
 			step: 4,
 			title: "Personalized profile",
-			description:
-				"Bruce will create a personalized professional profile for you based on the information you provide and we'll use this to introduce you to potential referrals",
+			description: "AI creates your professional profile for warm introductions",
 			features: [
 				"Bruce crafts your bio from your conversation",
 				"Use AI to refine your profile",
