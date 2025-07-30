@@ -202,7 +202,7 @@
 				<!-- Steps Column -->
 				<div class="space-y-12 md:space-y-16">
 					{#each features as feature}
-						<div class="space-y-6">
+						<div class="space-y-6 h-80 flex flex-col justify-center">
 							<div class="flex items-center gap-4">
 								<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground text-headline font-medium">
 									{feature.step}
@@ -229,10 +229,10 @@
 				<!-- Visualizations Column -->
 				<div class="space-y-12 md:space-y-16">
 					{#each features as feature}
-						<div class="relative overflow-hidden rounded-lg">
+						<div class="relative overflow-hidden rounded-lg border border-border bg-card p-6">
 						{#if feature.visualization === 'phone'}
 							<div class="w-full h-80 flex items-center justify-center">
-								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
+								<div class="w-full max-w-full">
 									<div class="text-center mb-6">
 										<div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
 											<svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
@@ -270,7 +270,7 @@
 							</div>
 						{:else if feature.visualization === 'matching'}
 							<div class="w-full h-80 flex items-center justify-center">
-								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
+								<div class="w-full max-w-full">
 									<div class="text-center mb-6">
 										<div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
 											<svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -306,7 +306,7 @@
 							</div>
 						{:else if feature.visualization === 'review'}
 							<div class="w-full h-80 flex items-center justify-center">
-								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
+								<div class="w-full max-w-full">
 									<div class="text-center mb-6">
 										<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
 											<svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -367,7 +367,7 @@
 							</div>
 						{:else if feature.visualization === 'profile'}
 							<div class="w-full h-80 flex items-center justify-center">
-								<div class="bg-white rounded-lg p-6 w-80 max-w-full">
+								<div class="w-full max-w-full">
 									<div class="text-center mb-4">
 										<div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
 											<span class="text-lg font-medium text-purple-600">JD</span>

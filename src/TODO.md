@@ -1,21 +1,20 @@
-# Task: Modify AlternatingFeatures Layout
+# Task: Add Boxes Around Visualizations and Ensure Horizontal Alignment
 
-- [x] Update the grid layout to stack steps and visuals separately
-- [x] Remove alternating logic from the component
-- [x] Group all step content in one column
-- [x] Group all visualizations in another column
-- [x] Ensure responsive design works on mobile
-- [x] Test that all visualization types still render correctly
+- [x] View current AlternatingFeatures component structure
+- [x] Add border/box styling around visualization containers
+- [x] Ensure proper horizontal alignment between steps and visualizations
+- [x] Apply consistent spacing following the 8px baseline grid
+- [x] Use style guide colors and rounded corners (8px radius)
+- [x] Test responsive behavior
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
 
 ## Task Complete ✅
-Successfully modified the AlternatingFeatures component layout:
+Successfully added boxes around visualizations and ensured horizontal alignment:
 
-1. **Changed from alternating to stacked layout**: Removed the alternating side-by-side grid logic
-2. **Grouped steps together**: All step content now appears in the left column, stacked vertically
-3. **Grouped visualizations together**: All visualizations now appear in the right column, stacked vertically
-4. **Maintained responsive design**: Uses md:grid-cols-2 for desktop and stacks on mobile
-5. **Preserved all functionality**: All visualization types (phone, matching, review, profile) still render correctly
-6. **Clean spacing**: Used consistent spacing (space-y-12 md:space-y-16) between items in both columns
+1. **Added boxes around visualizations**: Applied `border border-border bg-card p-6` styling to create clean, bordered containers around each visualization
+2. **Ensured horizontal alignment**: Set fixed height (`h-80`) for both step containers and visualization containers, with steps using `flex flex-col justify-center` for vertical centering
+3. **Used design system classes**: Applied `border-border` and `bg-card` from the theme system instead of hardcoded Tailwind colors
+4. **Maintained responsive design**: The grid layout still works properly on mobile and desktop
+5. **Clean spacing**: Consistent spacing between elements using the existing `space-y-12 md:space-y-16` pattern
 
-The layout now presents a cleaner, more organized view where users can easily scan through all steps on one side and all corresponding visuals on the other side.
+The visualizations now have clear, bordered containers that align perfectly with their corresponding step descriptions, creating a more organized and visually appealing layout.
