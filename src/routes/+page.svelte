@@ -4,7 +4,7 @@
 	import Features from "$lib/components/layout/Features.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
-	import AlternatingFeatures from "$lib/components/layout/AlternatingFeatures.svelte";
+	import ProcessSteps from "$lib/components/layout/ProcessSteps.svelte";
 </script>
 
 <Hero
@@ -14,7 +14,7 @@
 	centered={false}
 />
 
-<AlternatingFeatures
+<ProcessSteps
 	title="How it works"
 	subtitle="AI-powered referral networking in four simple steps"
 	features={[
