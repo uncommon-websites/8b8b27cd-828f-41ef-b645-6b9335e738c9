@@ -204,8 +204,9 @@
 					{#each features as feature}
 						<div class="space-y-6 h-80 flex flex-col justify-center p-6">
 							<div class="flex items-center gap-4">
-								<div class="flex h-8 w-8 items-center justify-center text-muted-foreground text-body font-normal">
-									{feature.step}
+								<div class="relative flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-purple-600 text-white font-medium text-lg shadow-lg">
+									<span class="relative z-10">{feature.step}</span>
+									<div class="absolute inset-0 rounded-full bg-gradient-to-br from-purple-400 to-purple-500 opacity-0 transition-opacity duration-200 hover:opacity-100"></div>
 								</div>
 								<h3 class="text-title2 text-foreground">{feature.title}</h3>
 							</div>
