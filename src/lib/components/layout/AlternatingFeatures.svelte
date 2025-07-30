@@ -202,7 +202,7 @@
 				<!-- Steps Column -->
 				<div class="space-y-12 md:space-y-16">
 					{#each features as feature}
-						<div class="space-y-6 h-80 flex flex-col justify-center">
+						<div class="space-y-6 h-80 flex flex-col justify-center p-6">
 							<div class="flex items-center gap-4">
 								<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground text-headline font-medium">
 									{feature.step}
@@ -229,7 +229,7 @@
 				<!-- Visualizations Column -->
 				<div class="space-y-12 md:space-y-16">
 					{#each features as feature}
-						<div class="relative overflow-hidden rounded-lg border border-border bg-card p-6">
+						<div class="relative overflow-hidden rounded-lg border border-border bg-card h-80 flex items-center justify-center p-6">
 						{#if feature.visualization === 'phone'}
 							<div class="w-full h-80 flex items-center justify-center">
 								<div class="w-full max-w-full">
