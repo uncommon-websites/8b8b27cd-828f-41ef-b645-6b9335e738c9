@@ -204,7 +204,7 @@
 					{#each features as feature}
 						<div class="space-y-6 h-80 flex flex-col justify-center p-6">
 							<div class="flex items-center gap-4">
-								<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground text-headline font-medium">
+								<div class="flex h-8 w-8 items-center justify-center text-muted-foreground text-body font-normal">
 									{feature.step}
 								</div>
 								<h3 class="text-title2 text-foreground">{feature.title}</h3>
