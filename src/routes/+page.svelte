@@ -72,41 +72,4 @@
 	text="Bruce uses AI-powered matching to connect business professionals with perfect referral partners. We automate warm introductions through voice-first conversations, helping you build high-quality referral networks 10x faster than cold outreach."
 />
 
-<Features
-	title="How Bruce works"
-	subtitle="AI-powered features that transform your referral networking"
-	features={[
-		{
-			title: "AI-powered compatibility matching",
-			description:
-				"Our proprietary AI analyzes business needs and goals to identify perfect referral partners with percentage compatibility scores."
-		},
-		{
-			title: "Voice-first discovery calls",
-			description:
-				"Complete 5-minute discovery calls with zero preparation while our AI crafts your professional profile from natural conversation."
-		},
-		{
-			title: "Double opt-in referral system",
-			description:
-				"Ensure mutual interest and consent with our secure double opt-in system that protects both parties in every introduction."
-		},
-		{
-			title: "Automated warm introductions",
-			description:
-				"Skip cold outreach entirely with AI-generated personalized introductions that create meaningful professional connections."
-		},
-		{
-			title: "Business compatibility analysis",
-			description:
-				"Advanced algorithms assess complementary business relationships and identify mutual referral opportunities within your network."
-		},
-		{
-			title: "10x faster networking results",
-			description:
-				"Build high-quality referral networks in minutes instead of months through intelligent matching and automated relationship building."
-		}
-	]}
-/>
-
 <CallToAction />
