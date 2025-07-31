@@ -3,15 +3,41 @@
 	import Summary from "$lib/components/layout/Summary.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 	import ProcessSteps from "$lib/components/layout/ProcessSteps.svelte";
 </script>
 
-<Hero
+<CustomerCardHero
 	title="Better referrals. Less chasing."
 	subtitle="Bruce uses AI-powered matching to connect you with perfect referral partners through voice-first conversations."
-	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
 	centered={true}
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "Business Development Manager",
+			imageSrc: "/uploaded/image-1.png"
+		},
+		{
+			name: "Michael Rodriguez",
+			position: "Sales Director",
+			imageSrc: "/uploaded/image-2.png"
+		},
+		{
+			name: "Emily Johnson",
+			position: "Marketing Consultant",
+			imageSrc: "/uploaded/image-3.png"
+		},
+		{
+			name: "David Kim",
+			position: "Financial Advisor",
+			imageSrc: "/uploaded/image-4.png"
+		},
+		{
+			name: "Lisa Thompson",
+			position: "Legal Counsel",
+			imageSrc: "/uploaded/image-5.png"
+		}
+	]}
 />
 
 <Summary
