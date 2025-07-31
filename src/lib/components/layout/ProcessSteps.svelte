@@ -262,9 +262,13 @@
 										<div class="bg-white border-border rounded-lg border p-6">
 											<div class="mb-6 text-center">
 												<div
-													class="bg-primary/10 mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full"
+													class="bg-primary/10 mx-auto mb-4 flex h-20 w-20 overflow-hidden rounded-full"
 												>
-													<span class="text-title3 text-primary font-medium">JD</span>
+													<img 
+									src="/generated/image-a-professional-business-consultant-captu.webp" 
+									alt="John Doe" 
+									class="h-full w-full object-cover"
+								/>
 												</div>
 												<h4 class="text-headline text-foreground">John Doe</h4>
 												<p class="text-caption text-muted-foreground">Business consultant</p>
