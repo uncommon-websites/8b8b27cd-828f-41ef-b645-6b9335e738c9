@@ -220,7 +220,7 @@
 														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
 														<img 
-															src="/generated/image-a-professional-male-financial-advisor-de.webp" 
+															src="/generated/image-a-professional-male-financial-advisor-in.webp" 
 															alt="Mike Rodriguez" 
 															class="h-full w-full object-cover"
 														/>
