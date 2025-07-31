@@ -11,7 +11,12 @@
 	title="Better referrals. Less chasing."
 	subtitle="Get introductions that actually turn into business."
 	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
-	centered={false}
+	centered={true}
+/>
+
+<Summary
+	title="What we do"
+	text="Bruce uses AI-powered matching to connect business professionals with perfect referral partners. We automate warm introductions through voice-first conversations, helping you build high-quality referral networks 10x faster than cold outreach."
 />
 
 <ProcessSteps
@@ -65,11 +70,6 @@
 			visualization: "profile"
 		}
 	]}
-/>
-
-<Summary
-	title="What we do"
-	text="Bruce uses AI-powered matching to connect business professionals with perfect referral partners. We automate warm introductions through voice-first conversations, helping you build high-quality referral networks 10x faster than cold outreach."
 />
 
 <CallToAction />

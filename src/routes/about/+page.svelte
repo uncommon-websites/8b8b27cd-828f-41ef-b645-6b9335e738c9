@@ -11,15 +11,18 @@
 	const values = [
 		{
 			title: "Quality over quantity",
-			description: "Every referral connection is carefully matched and verified to ensure mutual benefit and lasting professional relationships."
+			description:
+				"Every referral connection is carefully matched and verified to ensure mutual benefit and lasting professional relationships."
 		},
 		{
 			title: "Voice-first connections",
-			description: "Personal, human conversations drive meaningful partnerships. Our 5-minute discovery calls create authentic connections without the cold outreach."
+			description:
+				"Personal, human conversations drive meaningful partnerships. Our 5-minute discovery calls create authentic connections without the cold outreach."
 		},
 		{
 			title: "Smarter referrals",
-			description: "AI-powered matching eliminates guesswork by analyzing business compatibility and referral potential before introductions are made."
+			description:
+				"AI-powered matching eliminates guesswork by analyzing business compatibility and referral potential before introductions are made."
 		}
 	];
 </script>

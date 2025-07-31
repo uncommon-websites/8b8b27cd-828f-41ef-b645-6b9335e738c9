@@ -1,21 +1,21 @@
 <script lang="ts">
-  // Types
-  import type { NavItem } from '$lib/navigation';
-  // Components
-  import { NavigationMenu } from 'bits-ui';
-  // Simple SVG icon to replace lucide import
+	// Types
+	import type { NavItem } from "$lib/navigation";
+	// Components
+	import { NavigationMenu } from "bits-ui";
+	// Simple SVG icon to replace lucide import
 
-  // Props
-  let { item }: { item: NavItem } = $props();
+	// Props
+	let { item }: { item: NavItem } = $props();
 
-  // State
-  let activeImageIndex = $state(0);
-  // Determine if any children have images
-  let hasImages = $derived((item.children ?? []).some(child => !!child.image));
+	// State
+	let activeImageIndex = $state(0);
+	// Determine if any children have images
+	let hasImages = $derived((item.children ?? []).some((child) => !!child.image));
 
-  function setActiveImageIndex(index: number) {
-    activeImageIndex = index;
-  }
+	function setActiveImageIndex(index: number) {
+		activeImageIndex = index;
+	}
 </script>
 
 <NavigationMenu.Trigger class="group/item inline-flex h-full items-center gap-1">
@@ -27,7 +27,7 @@
 		stroke="currentColor"
 		viewBox="0 0 24 24"
 	>
-		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 	</svg>
 </NavigationMenu.Trigger>
 

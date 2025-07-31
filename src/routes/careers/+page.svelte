@@ -25,17 +25,20 @@
 	const benefits = [
 		{
 			title: "Pioneer AI networking",
-			description: "Shape the future of professional referrals in a $45B market using cutting-edge conversational AI.",
+			description:
+				"Shape the future of professional referrals in a $45B market using cutting-edge conversational AI.",
 			icon: IconBriefcase
 		},
 		{
 			title: "Accelerated growth",
-			description: "Join our mission-critical team where your work directly impacts 100,000+ monthly AI-matched introductions.",
+			description:
+				"Join our mission-critical team where your work directly impacts 100,000+ monthly AI-matched introductions.",
 			icon: IconUsers
 		},
 		{
 			title: "Meaningful impact",
-			description: "Help professionals build authentic referral networks 10x faster than traditional cold outreach.",
+			description:
+				"Help professionals build authentic referral networks 10x faster than traditional cold outreach.",
 			icon: IconHeart
 		}
 	];
@@ -120,8 +123,7 @@
 			company: "Engineering Team",
 			quote:
 				"Working on Bruce's natural language understanding systems is incredibly fulfilling. I get to solve complex AI challenges while knowing our matching algorithms help professionals build authentic referral relationships that actually work.",
-			image:
-				"/generated/image-a-professional-headshot-of-an-asian-amer.webp"
+			image: "/generated/image-a-professional-headshot-of-an-asian-amer.webp"
 		},
 		{
 			name: "Marcus Thompson",
@@ -129,8 +131,7 @@
 			company: "Product Team",
 			quote:
 				"Bruce gave me the opportunity to lead product initiatives that impact thousands of users daily. The rapid growth and technical innovation here has accelerated my career beyond what I imagined possible.",
-			image:
-				"/generated/image-a-professional-headshot-of-a-black-man-a.webp"
+			image: "/generated/image-a-professional-headshot-of-a-black-man-a.webp"
 		},
 		{
 			name: "Maria Rodriguez",
@@ -138,8 +139,7 @@
 			company: "Business Development",
 			quote:
 				"The culture at Bruce is unlike anywhere I've worked. We genuinely care about helping professionals succeed, and seeing our users eliminate cold outreach while building meaningful partnerships makes every day rewarding.",
-			image:
-				"/generated/image-a-professional-headshot-of-a-latina-woma.webp"
+			image: "/generated/image-a-professional-headshot-of-a-latina-woma.webp"
 		}
 	];
 
@@ -153,12 +153,14 @@
 		{
 			step: 2,
 			title: "Voice discovery call",
-			description: "Experience our voice-first approach firsthand in a 30-minute conversation about your background and our mission."
+			description:
+				"Experience our voice-first approach firsthand in a 30-minute conversation about your background and our mission."
 		},
 		{
 			step: 3,
 			title: "Start building connections",
-			description: "Join Bruce and help transform how professionals build referral networks through AI-powered introductions."
+			description:
+				"Join Bruce and help transform how professionals build referral networks through AI-powered introductions."
 		}
 	];
 
@@ -166,17 +168,20 @@
 		{
 			icon: IconHeart,
 			title: "Quality over quantity",
-			description: "We prioritize meaningful referral connections over mass outreach, ensuring every introduction creates mutual value."
+			description:
+				"We prioritize meaningful referral connections over mass outreach, ensuring every introduction creates mutual value."
 		},
 		{
 			icon: IconUsers,
 			title: "Voice-first philosophy",
-			description: "We believe in human conversation as the foundation of trust, using AI to enhance rather than replace personal connection."
+			description:
+				"We believe in human conversation as the foundation of trust, using AI to enhance rather than replace personal connection."
 		},
 		{
 			icon: IconGlobe,
 			title: "Mutual benefit mindset",
-			description: "Every feature we build emphasizes win-win outcomes, from our double opt-in system to bi-directional matching."
+			description:
+				"Every feature we build emphasizes win-win outcomes, from our double opt-in system to bi-directional matching."
 		}
 	];
 </script>
@@ -191,7 +196,10 @@
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join Bruce?" subtitle="Build the future of AI-powered professional networking" />
+	<SectionHeader
+		title="Why join Bruce?"
+		subtitle="Build the future of AI-powered professional networking"
+	/>
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}

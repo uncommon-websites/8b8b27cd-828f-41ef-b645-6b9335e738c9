@@ -1,1 +1,12 @@
-{"icon":{"desktop":{"regularIconTransformation":{"type":"none"},"darkIconType":"none"},"touch":{"transformation":{"type":"none"},"appTitle":"bruce"},"webAppManifest":{"transformation":{"type":"none"},"name":"bruce","shortName":"bruce"}},"path":"/"}
+{
+	"icon": {
+		"desktop": { "regularIconTransformation": { "type": "none" }, "darkIconType": "none" },
+		"touch": { "transformation": { "type": "none" }, "appTitle": "bruce" },
+		"webAppManifest": {
+			"transformation": { "type": "none" },
+			"name": "bruce",
+			"shortName": "bruce"
+		}
+	},
+	"path": "/"
+}

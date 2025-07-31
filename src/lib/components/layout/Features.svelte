@@ -3,7 +3,7 @@
 
 	// Types
 	import type { ComponentType } from "svelte";
-	
+
 	type Feature = {
 		title: string;
 		description: string;

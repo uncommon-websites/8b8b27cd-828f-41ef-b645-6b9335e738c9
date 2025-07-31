@@ -113,11 +113,11 @@
 	</header>
 
 	{#if imageSrc}
-		<div class="col-span-full aspect-video" data-enter>
+		<div class="col-span-full container mx-auto aspect-video rounded-xl" data-enter>
 			<img
 				src={imageSrc}
 				alt="Customer"
-				class="size-full object-cover"
+				class="ring-primary-900/20 aspect-video w-full rounded-xl object-cover ring-[.5rem]"
 				onerror={handleImageError}
 			/>
 		</div>

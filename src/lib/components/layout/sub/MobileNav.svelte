@@ -138,8 +138,13 @@
 			<summary
 				class="section-px nav-item text-title2 text-foreground hover:bg-muted flex cursor-pointer list-none items-center justify-between transition-all select-none group-open:font-medium"
 				>{item.label}
-				<svg class="transition duration-300 ease-out group-open:rotate-90 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+				<svg
+					class="h-4 w-4 transition duration-300 ease-out group-open:rotate-90"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
 				</svg></summary
 			>
 

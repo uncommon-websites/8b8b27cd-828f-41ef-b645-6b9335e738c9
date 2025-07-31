@@ -32,7 +32,7 @@
 
 	// Icon mapping
 	const iconMap: Record<string, any> = {
-		"users": IconUsers,
+		users: IconUsers,
 		"clipboard-list": IconClipboardList,
 		"chart-bar": IconBarChart,
 		"shield-check": IconShieldCheck,
@@ -47,12 +47,12 @@
 		"academic-cap": IconGraduationCap,
 		"clipboard-document-check": IconClipboardCheck,
 		"chart-pie": IconPieChart,
-		"cog": IconSettings
+		cog: IconSettings
 	};
 
 	// Transform features to include proper icon components
 	let transformedFeatures = $derived(
-		data?.features?.items?.map(feature => ({
+		data?.features?.items?.map((feature) => ({
 			...feature,
 			icon: iconMap[feature.icon] || IconUsers
 		})) || []
@@ -60,7 +60,7 @@
 
 	// Transform testimonials to match expected format
 	let transformedTestimonials = $derived(
-		data?.testimonials?.map(testimonial => ({
+		data?.testimonials?.map((testimonial) => ({
 			name: testimonial.author,
 			position: testimonial.role,
 			company: "", // Split role if needed
