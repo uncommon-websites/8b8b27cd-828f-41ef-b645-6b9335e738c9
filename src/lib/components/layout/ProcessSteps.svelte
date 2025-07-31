@@ -56,7 +56,7 @@
 						</div>
 
 						<div
-							class="border-border bg-card relative  grid place-items-center overflow-hidden rounded-lg border p-6"
+							class="border-border bg-card relative h-80 grid place-items-center overflow-hidden rounded-lg border p-6"
 						>
 							{#if feature.visualization === "phone"}
 								<div class="flex w-full items-center justify-center">
