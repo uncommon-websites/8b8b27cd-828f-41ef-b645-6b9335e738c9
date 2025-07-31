@@ -13,28 +13,28 @@
 	centered={true}
 	customers={[
 		{
-			name: "Sarah Chen",
-			position: "Business Development Manager",
+			name: "Ethan Brooks",
+			position: "Licensed Electrician",
 			imageSrc: "/uploaded/image-1.png"
 		},
 		{
-			name: "Michael Rodriguez",
-			position: "Sales Director",
+			name: "Isabella Martínez",
+			position: "Residential Painter",
 			imageSrc: "/uploaded/image-2.png"
 		},
 		{
-			name: "Emily Johnson",
-			position: "Marketing Consultant",
+			name: "Maya Patel",
+			position: "Expert Carpenter",
 			imageSrc: "/uploaded/image-3.png"
 		},
 		{
-			name: "David Kim",
-			position: "Financial Advisor",
+			name: "Victor Ramirez",
+			position: "Landscaping Specialist",
 			imageSrc: "/uploaded/image-4.png"
 		},
 		{
-			name: "Lisa Thompson",
-			position: "Legal Counsel",
+			name: "Daniel Kim",
+			position: "Construction Foreman",
 			imageSrc: "/uploaded/image-5.png"
 		}
 	]}
