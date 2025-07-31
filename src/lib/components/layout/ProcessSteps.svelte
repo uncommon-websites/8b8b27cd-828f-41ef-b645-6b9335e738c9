@@ -228,11 +228,11 @@
 										</div>
 										<div class="flex flex-wrap justify-start gap-2">
 											<span
-												class="bg-primary/10 text-primary text-caption border-primary/20 rounded-full border px-3 py-1"
+												class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
 												>Strategy</span
 											>
 											<span
-												class="bg-secondary/50 text-secondary-foreground text-caption border-secondary rounded-full border px-3 py-1"
+												class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
 												>Growth</span
 											>
 											<span
