@@ -169,7 +169,7 @@
 														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
 														<img 
-															src="/generated/image-a-professional-business-woman-standing-i.webp" 
+															src="/generated/image-a-professional-business-woman-in-a-natur.webp" 
 															alt="Sarah Chen" 
 															class="h-full w-full object-cover"
 														/>
@@ -220,7 +220,7 @@
 														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
 														<img 
-															src="/generated/image-a-professional-business-man-in-a-co-work.webp" 
+															src="/generated/image-a-professional-business-man-in-an-intima.webp" 
 															alt="Mike Rodriguez" 
 															class="h-full w-full object-cover"
 														/>
