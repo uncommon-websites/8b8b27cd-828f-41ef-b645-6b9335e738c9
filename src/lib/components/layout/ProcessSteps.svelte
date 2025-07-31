@@ -169,7 +169,7 @@
 														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
 														<img 
-															src="/generated/image-a-professional-business-woman-in-a-natur.webp" 
+															src="/uploaded/1753968011905-kfzp7j1.png" 
 															alt="Sarah Chen" 
 															class="h-full w-full object-cover"
 														/>

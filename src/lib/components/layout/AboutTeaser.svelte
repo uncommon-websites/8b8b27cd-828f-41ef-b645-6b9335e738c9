@@ -23,7 +23,7 @@ A minimalist teaser for the about page.
 	const teamMember: TeamMember = {
 		name: "Sarah Chen",
 		role: "Founder & CEO",
-		image: "/generated/image-a-professional-business-woman-standing-i.webp"
+		image: "/uploaded/1753968011905-kfzp7j1.png"
 	};
 </script>
 

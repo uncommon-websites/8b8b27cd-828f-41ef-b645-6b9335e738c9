@@ -123,7 +123,7 @@
 			company: "Engineering Team",
 			quote:
 				"Working on Bruce's natural language understanding systems is incredibly fulfilling. I get to solve complex AI challenges while knowing our matching algorithms help professionals build authentic referral relationships that actually work.",
-			image: "/generated/image-a-professional-headshot-of-an-asian-amer.webp"
+			image: "/uploaded/1753968011905-kfzp7j1.png"
 		},
 		{
 			name: "Marcus Thompson",
