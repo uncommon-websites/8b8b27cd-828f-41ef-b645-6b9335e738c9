@@ -9,7 +9,7 @@
 
 <Hero
 	title="Better referrals. Less chasing."
-	subtitle="Get introductions that actually turn into business."
+	subtitle="Bruce uses AI-powered matching to connect you with perfect referral partners through voice-first conversations. Build high-quality referral networks 10x faster than cold outreach and turn warm introductions into actual business."
 	imageSrc="/generated/image-a-diverse-group-of-business-professional.webp"
 	centered={true}
 />
