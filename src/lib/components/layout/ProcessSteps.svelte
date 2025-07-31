@@ -171,7 +171,7 @@
 													<img
 														src="/uploaded/1753968011905-kfzp7j1.png"
 														alt="Sarah Chen"
-														class="h-full w-full object-cover"
+														class="bottom-10 h-full w-full object-cover object-top"
 													/>
 												</div>
 												<div>
@@ -220,9 +220,9 @@
 													class="bg-card flex h-10 w-10 items-center justify-center overflow-hidden rounded-full"
 												>
 													<img
-														src="/generated/image-a-professional-business-man-in-an-intima.webp"
+														src="/generated/image-a-professional-business-consultant-heads.webp"
 														alt="Mike Rodriguez"
-														class="h-full w-full object-cover"
+														class="image-top h-full w-full object-cover object-top"
 													/>
 												</div>
 												<div>
@@ -285,7 +285,7 @@
 											class="text-caption text-muted-foreground mb-6 text-center leading-relaxed"
 										>
 											"Experienced business consultant specializing in growth strategies for small
-											businesses. Passionate about helping entrepreneurs scale their operations..."
+											businesses."
 										</div>
 										<div class="flex flex-wrap justify-center gap-2">
 											<span
