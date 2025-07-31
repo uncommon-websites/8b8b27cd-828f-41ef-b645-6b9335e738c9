@@ -273,7 +273,7 @@
 													class="bg-primary/10 mx-auto mb-4 flex h-20 w-20 overflow-hidden rounded-full"
 												>
 													<img 
-														src="/generated/image-a-professional-male-business-consultant-.webp" 
+														src="/generated/image-a-professional-business-man-headshot-in-.webp" 
 														alt="John Doe" 
 														class="h-full w-full object-cover"
 													/>
