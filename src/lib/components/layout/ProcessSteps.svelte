@@ -1,7 +1,7 @@
 <script lang="ts">
 	// Components
 	import SectionHeader from "./SectionHeader.svelte";
-	
+
 	// Icons
 	import IconPhone from "~icons/lucide/phone";
 	import IconBrain from "~icons/lucide/brain";
@@ -222,9 +222,7 @@
 												<p class="text-caption text-muted-foreground">Business consultant</p>
 											</div>
 										</div>
-										<div
-											class="text-caption text-muted-foreground mb-6 text-left leading-relaxed"
-										>
+										<div class="text-caption text-muted-foreground mb-6 text-left leading-relaxed">
 											Experienced business consultant specializing in growth strategies for small
 											businesses.
 										</div>
