@@ -63,10 +63,10 @@
 						</div>
 
 						<div
-							class="border-border bg-card relative grid h-80 place-items-center overflow-hidden rounded-lg border p-6"
+							class="border-border bg-card relative flex h-96 items-center justify-center overflow-hidden rounded-lg border p-8"
 						>
 							{#if feature.visualization === "phone"}
-								<div class="flex w-full items-center justify-center">
+								<div class="flex h-full w-full items-center justify-center">
 									<div class="w-full max-w-sm">
 										<div class="mb-6 text-center">
 											<div
@@ -90,7 +90,8 @@
 									</div>
 								</div>
 							{:else if feature.visualization === "matching"}
-								<div class="w-full max-w-sm">
+								<div class="flex h-full w-full items-center justify-center">
+									<div class="w-full max-w-sm">
 									<div class="mb-6 text-center">
 										<div
 											class="bg-primary/10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
@@ -128,9 +129,11 @@
 											<span class="text-body text-muted-foreground font-medium">87%</span>
 										</div>
 									</div>
+									</div>
 								</div>
 							{:else if feature.visualization === "review"}
-								<div class="w-full max-w-sm">
+								<div class="flex h-full w-full items-center justify-center">
+									<div class="w-full max-w-sm">
 									<div class="mb-6 text-center">
 										<div
 											class="bg-primary/10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
@@ -203,9 +206,11 @@
 											</div>
 										</div>
 									</div>
+									</div>
 								</div>
 							{:else if feature.visualization === "profile"}
-								<div class="w-full max-w-sm">
+								<div class="flex h-full w-full items-center justify-center">
+									<div class="w-full max-w-sm">
 									<div class="border-border rounded-lg border bg-white p-6">
 										<div class="mb-6 flex items-center gap-4">
 											<div
@@ -240,6 +245,7 @@
 												>SMB</span
 											>
 										</div>
+									</div>
 									</div>
 								</div>
 							{/if}
