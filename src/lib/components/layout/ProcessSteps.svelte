@@ -220,7 +220,7 @@
 														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
 														<img 
-															src="/generated/image-a-professional-male-financial-advisor-in.webp" 
+															src="/generated/image-a-professional-male-financial-advisor-de.webp" 
 															alt="Mike Rodriguez" 
 															class="h-full w-full object-cover"
 														/>
@@ -273,10 +273,10 @@
 													class="bg-primary/10 mx-auto mb-4 flex h-20 w-20 overflow-hidden rounded-full"
 												>
 													<img 
-									src="/generated/image-a-professional-male-business-consultant-.webp" 
-									alt="John Doe" 
-									class="h-full w-full object-cover"
-								/>
+														src="/generated/image-a-professional-male-business-consultant-.webp" 
+														alt="John Doe" 
+														class="h-full w-full object-cover"
+													/>
 												</div>
 												<h4 class="text-headline text-foreground">John Doe</h4>
 												<p class="text-caption text-muted-foreground">Business consultant</p>
