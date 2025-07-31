@@ -284,12 +284,12 @@
 											</div>
 										</div>
 										<div
-											class="text-caption text-muted-foreground mb-6 text-center leading-relaxed"
+											class="text-caption text-muted-foreground mb-6 text-left leading-relaxed"
 										>
-											"Experienced business consultant specializing in growth strategies for small
-											businesses."
+											Experienced business consultant specializing in growth strategies for small
+											businesses.
 										</div>
-										<div class="flex flex-wrap justify-center gap-2">
+										<div class="flex flex-wrap justify-start gap-2">
 											<span
 												class="bg-primary/10 text-primary text-caption border-primary/20 rounded-full border px-3 py-1"
 												>Strategy</span
