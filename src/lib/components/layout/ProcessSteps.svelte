@@ -166,9 +166,13 @@
 											>
 												<div class="flex items-center gap-3">
 													<div
-														class="bg-card flex h-10 w-10 items-center justify-center rounded-full"
+														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
-														<span class="text-caption text-muted-foreground font-medium">SC</span>
+														<img 
+															src="/generated/image-a-professional-female-real-estate-agent-.webp" 
+															alt="Sarah Chen" 
+															class="h-full w-full object-cover"
+														/>
 													</div>
 													<div>
 														<div class="text-body text-foreground font-medium">Sarah Chen</div>
@@ -213,9 +217,13 @@
 											>
 												<div class="flex items-center gap-3">
 													<div
-														class="bg-card flex h-10 w-10 items-center justify-center rounded-full"
+														class="bg-card flex h-10 w-10 overflow-hidden items-center justify-center rounded-full"
 													>
-														<span class="text-caption text-muted-foreground font-medium">MR</span>
+														<img 
+															src="/generated/image-a-professional-male-financial-advisor-in.webp" 
+															alt="Mike Rodriguez" 
+															class="h-full w-full object-cover"
+														/>
 													</div>
 													<div>
 														<div class="text-body text-foreground font-medium">Mike Rodriguez</div>
@@ -265,7 +273,7 @@
 													class="bg-primary/10 mx-auto mb-4 flex h-20 w-20 overflow-hidden rounded-full"
 												>
 													<img 
-									src="/generated/image-a-professional-business-consultant-captu.webp" 
+									src="/generated/image-a-professional-male-business-consultant-.webp" 
 									alt="John Doe" 
 									class="h-full w-full object-cover"
 								/>
