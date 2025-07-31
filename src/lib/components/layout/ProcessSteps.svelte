@@ -71,7 +71,7 @@
 													/>
 												</svg>
 											</div>
-											<h4 class="text-headline text-foreground">Discovery call</h4>
+											<h4 class="text-headline text-foreground">Bruce</h4>
 										</div>
 										<div class="space-y-4">
 											<div
@@ -82,12 +82,6 @@
 													<span class="text-body text-foreground">Call in progress</span>
 												</div>
 												<span class="text-body text-primary font-medium">03:31</span>
-											</div>
-											<div class="bg-white border-border rounded-lg border p-4">
-												<div class="text-caption text-muted-foreground mb-2">Bruce is asking:</div>
-												<div class="text-body text-foreground">
-													"What type of clients do you typically work with?"
-												</div>
 											</div>
 										</div>
 									</div>
