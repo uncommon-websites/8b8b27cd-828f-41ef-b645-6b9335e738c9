@@ -78,7 +78,7 @@
 										</div>
 										<div class="space-y-4">
 											<div
-												class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
+												class="flex items-center justify-between rounded-lg border border-border bg-gray-50 p-4\"
 											>
 												<div class="flex items-center gap-3">
 													<div class="bg-primary h-2 w-2 animate-pulse rounded-full"></div>
@@ -111,7 +111,7 @@
 											<span class="text-body text-primary font-medium">98%</span>
 										</div>
 										<div
-											class="flex items-center justify-between rounded-lg border border-border bg-gray-50 p-4"
+											class="flex items-center justify-between rounded-lg border border-border bg-white p-4\"
 										>
 											<div class="flex items-center gap-3">
 												<div class="bg-primary-600 h-3 w-3 rounded-full"></div>
