@@ -78,7 +78,7 @@
 										</div>
 										<div class="space-y-4">
 											<div
-												class="border-border flex items-center justify-between rounded-lg border bg-white p-4"
+												class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
 											>
 												<div class="flex items-center gap-3">
 													<div class="bg-primary h-2 w-2 animate-pulse rounded-full"></div>
@@ -102,28 +102,28 @@
 									</div>
 									<div class="space-y-3">
 										<div
-											class="bg-card border-border flex items-center justify-between rounded-lg border p-4"
+											class="flex items-center justify-between rounded-lg border border-border bg-white p-4"
 										>
 											<div class="flex items-center gap-3">
-												<div class="bg-primary h-3 w-3 rounded-full"></div>
+												<div class="bg-primary-900 h-3 w-3 rounded-full"></div>
 												<span class="text-body text-foreground">Real estate agent</span>
 											</div>
 											<span class="text-body text-primary font-medium">98%</span>
 										</div>
 										<div
-											class="bg-card border-border flex items-center justify-between rounded-lg border p-4"
+											class="flex items-center justify-between rounded-lg border border-border bg-gray-50 p-4"
 										>
 											<div class="flex items-center gap-3">
-												<div class="bg-secondary h-3 w-3 rounded-full"></div>
+												<div class="bg-primary-600 h-3 w-3 rounded-full"></div>
 												<span class="text-body text-foreground">Financial advisor</span>
 											</div>
 											<span class="text-body text-muted-foreground font-medium">94%</span>
 										</div>
 										<div
-											class="border-border flex items-center justify-between rounded-lg border bg-white p-4"
+											class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
 										>
 											<div class="flex items-center gap-3">
-												<div class="bg-primary-foreground h-3 w-3 rounded-full"></div>
+												<div class="bg-primary-300 h-3 w-3 rounded-full"></div>
 												<span class="text-body text-muted-foreground">Marketing agency</span>
 											</div>
 											<span class="text-body text-muted-foreground font-medium">87%</span>
@@ -144,7 +144,7 @@
 									</div>
 									<div class="space-y-4">
 										<div
-											class="border-border flex items-center justify-between rounded-lg border bg-white p-4"
+											class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
 										>
 											<div class="flex items-center gap-3">
 												<div
@@ -175,7 +175,7 @@
 											</div>
 										</div>
 										<div
-											class="border-border flex items-center justify-between rounded-lg border bg-white p-4"
+											class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
 										>
 											<div class="flex items-center gap-3">
 												<div
