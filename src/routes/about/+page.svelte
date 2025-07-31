@@ -30,7 +30,7 @@
 <SecondaryHero
 	title="Building meaningful business relationships"
 	subtitle="through AI-powered referral matching"
-	imageSrc="/mockups/dark-screen-1753323009154.png"
+	imageSrc="/generated/image-a-group-of-diverse-business-professional.webp"
 />
 
 <!-- Story Section -->
