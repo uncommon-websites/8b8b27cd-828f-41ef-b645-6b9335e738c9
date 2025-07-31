@@ -268,9 +268,9 @@
 							{:else if feature.visualization === "profile"}
 								<div class="w-full max-w-sm">
 									<div class="border-border rounded-lg border bg-white p-6">
-										<div class="mb-6 text-center">
+										<div class="mb-6 flex items-center gap-4">
 											<div
-												class="bg-primary/10 mx-auto mb-4 flex h-20 w-20 overflow-hidden rounded-full"
+												class="bg-primary/10 flex h-16 w-16 flex-shrink-0 overflow-hidden rounded-full"
 											>
 												<img
 													src="/generated/image-a-professional-business-man-headshot-in-.webp"
@@ -278,8 +278,10 @@
 													class="h-full w-full object-cover"
 												/>
 											</div>
-											<h4 class="text-headline text-foreground">John Doe</h4>
-											<p class="text-caption text-muted-foreground">Business consultant</p>
+											<div class="flex-1">
+												<h4 class="text-headline text-foreground">John Doe</h4>
+												<p class="text-caption text-muted-foreground">Business consultant</p>
+											</div>
 										</div>
 										<div
 											class="text-caption text-muted-foreground mb-6 text-center leading-relaxed"
