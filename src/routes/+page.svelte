@@ -14,9 +14,9 @@
 	centered={true}
 	customers={[
 		{
-			name: "Ethan Brooks",
-			position: "Real Estate Agent",
-			imageSrc: "/uploaded/1755543865892-mfb960d.webp"
+			name: "Marcus Thompson",
+			position: "Insurance Agent",
+			imageSrc: "/uploaded/1755544315306-58d3rsq.webp"
 		},
 		{
 			name: "Mei Chen",
