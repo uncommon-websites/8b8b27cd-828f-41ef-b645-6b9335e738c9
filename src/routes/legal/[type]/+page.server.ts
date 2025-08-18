@@ -6,31 +6,51 @@ const legal = {
 				"Our privacy policy explains how we collect, use, and protect your personal information."
 		},
 		content: {
-			lastUpdated: new Date().toISOString(),
+			lastUpdated: "2024-08-18T00:00:00.000Z",
 			sections: [
 				{
 					title: "Introduction",
-					body: "We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you."
+					body: "Tanda Technologies, Inc. (\"Tanda,\" \"we,\" \"us,\" or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your information when you interact with our services. This policy applies to all interactions with Tanda, including: Our websites and platforms Our mobile and desktop apps Voice or chatbot-based conversations Email and SMS interactions Official social media pages We refer to these collectively as the \"Services.\""
 				},
 				{
-					title: "Information We Collect",
-					body: "We may collect, use, store and transfer different kinds of personal data about you including: Identity Data (name, username), Contact Data (email, phone), Technical Data (IP address, browser info), and Usage Data (how you use our website)."
+					title: "What We Collect",
+					body: "We collect information to provide, improve, and personalize our Services. This may include: Identity and contact info: Name, phone number, email address Interaction data: Chat messages, voice recordings, call transcripts Account details: Login info, preferences, IP address Device data: Type, browser, OS, location (if enabled) Social handles: When connected, we may receive limited profile data We do not collect or process payment or financial account data."
+				},
+				{
+					title: "Voice & Text Consent",
+					body: "By using our voice or chat Services, you consent to: Recording and storing your interactions Analyzing transcripts and patterns to improve our AI (e.g., Bruce) Using this data to deliver better matches and recommendations We may use anonymized or aggregated versions of this data to improve service quality and train machine learning systems. You can opt out of non-essential use by contacting us (see below)."
 				},
 				{
 					title: "How We Use Your Information",
-					body: "We will only use your personal data when legally permitted. Most commonly to perform contracts with you, for our legitimate interests, or to comply with legal obligations."
+					body: "We use your information to: Operate, improve, and maintain our Services Personalize your experience and match suggestions Train and enhance AI-powered features like Bruce Support customer service and troubleshoot issues Communicate with you about matches, reminders, and updates We may retain anonymized interaction data indefinitely to strengthen performance, accuracy, and user experience."
 				},
 				{
-					title: "Data Security",
-					body: "We have implemented appropriate security measures to prevent unauthorized access, alteration, disclosure, or destruction of your personal data."
+					title: "When We Share Data",
+					body: "We may share your information with trusted third-party service providers who support our operations (e.g., hosting, analytics, communication platforms). These providers are required to handle your data securely and only on our behalf. We may also share anonymized, aggregated insights with partners or for research purposes. We will never sell your personal information."
 				},
 				{
-					title: "Your Legal Rights",
-					body: "You have rights to access, correct, erase, object to processing, restrict processing, and transfer your personal data. Contact us to exercise these rights."
+					title: "Security",
+					body: "We implement reasonable security measures to protect your data. However, no method of transmission or storage is fully secure. Please contact us immediately at support@bruce.bot if you believe your account has been compromised."
+				},
+				{
+					title: "Location & International Data Transfer",
+					body: "We are based in the United States. By using our Services, you agree that your data may be transferred to, processed, and stored in the U.S., which may have different privacy protections than your home country."
+				},
+				{
+					title: "Children",
+					body: "Our Services are not intended for individuals under the age of 13. We do not knowingly collect data from children."
+				},
+				{
+					title: "Your Rights",
+					body: "As a California resident, you may request: Access to your personal data Correction or deletion To opt out of non-essential use To exercise your rights, email us at support@bruce.bot."
+				},
+				{
+					title: "Changes to This Policy",
+					body: "We may update this Privacy Policy periodically. The \"Last Updated\" date reflects the most recent version. Continued use of the Services means you accept any changes."
 				},
 				{
 					title: "Contact Us",
-					body: "If you have questions about this privacy policy, please contact us at privacy@example.com."
+					body: "For questions, feedback, or requests regarding your privacy: support@bruce.bot"
 				}
 			]
 		}
