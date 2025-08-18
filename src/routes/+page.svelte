@@ -15,8 +15,8 @@
 	customers={[
 		{
 			name: "Ethan Brooks",
-			position: "Licensed Electrician",
-			imageSrc: "/uploaded/image-1.png"
+			position: "Real Estate Agent",
+			imageSrc: "/uploaded/1755543865892-mfb960d.webp"
 		},
 		{
 			name: "Isabella Martínez",
