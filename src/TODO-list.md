@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-08-18T18:44:44.252Z -->
+<!-- Updated: 2025-08-18T19:28:25.013Z -->
 
 # Current Todo List State
 
@@ -26,3 +26,8 @@
 - [x] Add the Testimonials component after ProcessSteps in the main page
 - [x] Verify the testimonials display correctly with proper formatting
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind
+- [x] Examine CustomerCardHero component to identify any buttons
+- [x] Check the navigation configuration file ($lib/navigation) for current CTA settings
+- [x] Update navigation configuration to point to https://app.bruce.bot/onboarding
+- [x] Verify all buttons on home page now link to the correct URL
+- [x] Run comprehensive error check and fix all issues
