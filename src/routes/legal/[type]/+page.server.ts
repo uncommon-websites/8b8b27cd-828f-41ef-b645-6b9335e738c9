@@ -61,31 +61,39 @@ const legal = {
 			description: "Our terms of service outline the rules and regulations for using our website."
 		},
 		content: {
-			lastUpdated: new Date().toISOString(),
+			lastUpdated: "2025-06-13T00:00:00.000Z",
 			sections: [
 				{
-					title: "Acceptance of Terms",
-					body: "By accessing this website, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using this site."
+					title: "Terms of Service",
+					body: "Effective Date: June 13, 2025. These Terms of Service (\"Terms\") govern your access and use of the Services provided by Tanda Technologies, Inc. (\"Tanda,\" \"we,\" \"us\"). By using our Services, you agree to these Terms. If you do not agree, please do not use the Services."
 				},
 				{
-					title: "Use License",
-					body: "Permission is granted to temporarily download one copy of materials for personal, non-commercial viewing only. This license shall automatically terminate if you violate any of these restrictions."
+					title: "Your Responsibilities",
+					body: "You agree to: Use our Services only for lawful, professional, and networking purposes. Provide accurate and complete information. Maintain the confidentiality of your login credentials. Not use our systems to spam, harass, or collect unauthorized data. You are responsible for the actions taken under your account."
 				},
 				{
-					title: "Disclaimer",
-					body: "The materials on this website are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties including implied warranties of merchantability or fitness for a particular purpose."
+					title: "AI, Data, and Recordings",
+					body: "By using our voice and chatbot features, you agree that: Your voice and text inputs may be recorded, stored, and analyzed. We may use this data to improve our services, matching system, and AI models. Aggregated or anonymized data may be retained indefinitely. If you prefer not to be recorded, do not use the voice features."
 				},
 				{
-					title: "Limitations",
-					body: "In no event shall we or our suppliers be liable for any damages arising out of the use or inability to use the materials on our website."
+					title: "Communications",
+					body: "You consent to receiving SMS, email, and phone communications related to your account, matches, and reminders. You can manage preferences through your profile settings."
 				},
 				{
-					title: "Revisions",
-					body: "We may revise these terms at any time without notice. By using this website, you agree to be bound by the current version of these Terms of Service."
+					title: "Intellectual Property",
+					body: "All content, technology, and branding related to Tanda — including Bruce — are our intellectual property. You may not reverse-engineer, copy, or redistribute any portion of the platform."
 				},
 				{
-					title: "Governing Law",
-					body: "These terms shall be governed by and construed in accordance with the laws, and you submit to the exclusive jurisdiction of the courts in that location."
+					title: "Termination",
+					body: "We may suspend or terminate your access at any time, particularly for misuse, policy violations, or failure to maintain accurate information."
+				},
+				{
+					title: "Legal",
+					body: "These Terms are governed by California law. Any disputes will be handled in the state or federal courts located in San Francisco, CA."
+				},
+				{
+					title: "Contact Us",
+					body: "Questions? Email us at support@bruce.bot."
 				}
 			]
 		}
