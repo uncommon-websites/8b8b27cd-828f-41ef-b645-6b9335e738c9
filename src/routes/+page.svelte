@@ -19,9 +19,9 @@
 			imageSrc: "/uploaded/1755543865892-mfb960d.webp"
 		},
 		{
-			name: "Isabella Martínez",
-			position: "Residential Painter",
-			imageSrc: "/uploaded/image-2.png"
+			name: "Mei Chen",
+			position: "Financial Advisor",
+			imageSrc: "/uploaded/1755544033159-wysiiy3.webp"
 		},
 		{
 			name: "Maya Patel",
