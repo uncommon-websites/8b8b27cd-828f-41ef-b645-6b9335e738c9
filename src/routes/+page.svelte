@@ -106,21 +106,21 @@
 			position: "Residential Mortgages",
 			company: "PMG Loans",
 			quote: "Wow, this is a game changer for networking. I'm so excited about the possibilities!",
-			image: "/uploaded/placeholder-1.png"
+			image: "/generated/image-a-professional-portrait-of-sergio-michel.webp"
 		},
 		{
 			name: "Chris Brooke",
 			position: "Property & Casualty Insurance",
 			company: "Farmer's Insurance",
 			quote: "Impressive. It's just like talking to a Human!",
-			image: "/uploaded/placeholder-2.png"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=67059983e4b0a4e5a6006c9b"
 		},
 		{
 			name: "Rajeev Krishnan",
 			position: "Digital Marketing",
 			company: "TitanX Marketing",
 			quote: "Exciting and powerful. This is going to generate so many leads and referrals!",
-			image: "/uploaded/placeholder-3.png"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=67d10aaee4b0340086d44106"
 		},
 		{
 			name: "Ivan Jue",
