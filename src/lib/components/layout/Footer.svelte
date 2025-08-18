@@ -64,8 +64,7 @@
 		>
 			<div class="grid grid-cols-2 items-start justify-between gap-4 gap-x-32 text-sm">
 				<div>
-					&copy; {CONFIG.companyName}
-					{new Date().getFullYear()}
+					© 2025 Tanda Technologies, Inc.
 				</div>
 				<div class="flex items-baseline justify-end gap-3 lg:justify-start">
 					<div class="ml-auto hidden justify-self-end lg:block"><Signature /></div>
