@@ -106,7 +106,7 @@
 			position: "Residential Mortgages",
 			company: "PMG Loans",
 			quote: "Wow, this is a game changer for networking. I'm so excited about the possibilities!",
-			image: "/generated/image-a-professional-portrait-of-sergio-michel.webp"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=66d73a21e4b09908bf432097"
 		},
 		{
 			name: "Chris Brooke",
@@ -127,21 +127,21 @@
 			position: "Life and Disability Insurance",
 			company: "World Financial Group. Inc.",
 			quote: "This solves one of the biggest pains in networking.",
-			image: "/uploaded/placeholder-4.png"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=641a2477e4b0c2b55126120f"
 		},
 		{
 			name: "Frank Dias",
 			position: "Mobile Notary",
 			company: "Silicon Valley Signings",
 			quote: "This is so cool! This makes networking effortless!",
-			image: "/uploaded/placeholder-5.png"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=63a6431e4303fe0001e92a2c"
 		},
 		{
 			name: "Shy Sayno",
 			position: "Business Consultant",
 			company: "NorthStar Strategic Partners, Inc",
 			quote: "Wow, I love it!",
-			image: "/uploaded/placeholder-6.png"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=66312f49e4b0d3ca42eb3c3d"
 		}
 	]}
 />
