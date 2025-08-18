@@ -78,7 +78,7 @@
 										</div>
 										<div class="space-y-4">
 											<div
-												class="flex items-center justify-between rounded-lg border border-border bg-gray-50 p-4\"
+												class="border-border flex items-center justify-between rounded-lg border bg-gray-50 p-4"
 											>
 												<div class="flex items-center gap-3">
 													<div class="bg-primary h-2 w-2 animate-pulse rounded-full"></div>
@@ -92,160 +92,162 @@
 							{:else if feature.visualization === "matching"}
 								<div class="flex h-full w-full items-center justify-center">
 									<div class="w-full max-w-sm">
-									<div class="mb-6 text-center">
-										<div
-											class="bg-primary/10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
-										>
-											<IconBrain class="text-primary h-8 w-8" />
-										</div>
-										<h4 class="text-headline text-foreground">AI matching</h4>
-									</div>
-									<div class="space-y-3">
-										<div
-											class="flex items-center justify-between rounded-lg border border-border bg-white p-4"
-										>
-											<div class="flex items-center gap-3">
-												<div class="bg-primary-900 h-3 w-3 rounded-full"></div>
-												<span class="text-body text-foreground">Real estate agent</span>
+										<div class="mb-6 text-center">
+											<div
+												class="bg-primary/10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
+											>
+												<IconBrain class="text-primary h-8 w-8" />
 											</div>
-											<span class="text-body text-primary font-medium">98%</span>
+											<h4 class="text-headline text-foreground">AI matching</h4>
 										</div>
-										<div
-											class="flex items-center justify-between rounded-lg border border-border bg-white p-4\"
-										>
-											<div class="flex items-center gap-3">
-												<div class="bg-primary-600 h-3 w-3 rounded-full"></div>
-												<span class="text-body text-foreground">Financial advisor</span>
+										<div class="space-y-3">
+											<div
+												class="border-border flex items-center justify-between rounded-lg border bg-white p-4"
+											>
+												<div class="flex items-center gap-3">
+													<div class="bg-primary-900 h-3 w-3 rounded-full"></div>
+													<span class="text-body text-foreground">Real estate agent</span>
+												</div>
+												<span class="text-body text-primary font-medium">98%</span>
 											</div>
-											<span class="text-body text-muted-foreground font-medium">94%</span>
-										</div>
-										<div
-											class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
-										>
-											<div class="flex items-center gap-3">
-												<div class="bg-primary-300 h-3 w-3 rounded-full"></div>
-												<span class="text-body text-muted-foreground">Marketing agency</span>
+											<div
+												class="border-border flex items-center justify-between rounded-lg border bg-white p-4"
+											>
+												<div class="flex items-center gap-3">
+													<div class="bg-primary-600 h-3 w-3 rounded-full"></div>
+													<span class="text-body text-foreground">Financial advisor</span>
+												</div>
+												<span class="text-body text-muted-foreground font-medium">94%</span>
 											</div>
-											<span class="text-body text-muted-foreground font-medium">87%</span>
+											<div
+												class="border-border flex items-center justify-between rounded-lg border bg-gray-100 p-4"
+											>
+												<div class="flex items-center gap-3">
+													<div class="bg-primary-300 h-3 w-3 rounded-full"></div>
+													<span class="text-body text-muted-foreground">Marketing agency</span>
+												</div>
+												<span class="text-body text-muted-foreground font-medium">87%</span>
+											</div>
 										</div>
-									</div>
 									</div>
 								</div>
 							{:else if feature.visualization === "review"}
 								<div class="flex h-full w-full items-center justify-center">
 									<div class="w-full max-w-sm">
-									<div class="mb-6 text-center">
-										<div
-											class="bg-primary/10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
-										>
-											<IconCheckCircle class="text-primary h-8 w-8" />
+										<div class="mb-6 text-center">
+											<div
+												class="bg-primary/10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
+											>
+												<IconCheckCircle class="text-primary h-8 w-8" />
+											</div>
+											<h4 class="text-headline text-foreground">Review matches</h4>
 										</div>
-										<h4 class="text-headline text-foreground">Review matches</h4>
-									</div>
-									<div class="space-y-4">
-										<div
-											class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
-										>
-											<div class="flex items-center gap-3">
-												<div
-													class="bg-card flex h-10 w-10 items-center justify-center overflow-hidden rounded-full"
-												>
-													<img
-														src="/uploaded/1753968011905-kfzp7j1.png"
-														alt="Sarah Chen"
-														class="bottom-10 h-full w-full object-cover object-top"
-													/>
+										<div class="space-y-4">
+											<div
+												class="border-border flex items-center justify-between rounded-lg border bg-gray-100 p-4"
+											>
+												<div class="flex items-center gap-3">
+													<div
+														class="bg-card flex h-10 w-10 items-center justify-center overflow-hidden rounded-full"
+													>
+														<img
+															src="/uploaded/1753968011905-kfzp7j1.png"
+															alt="Sarah Chen"
+															class="bottom-10 h-full w-full object-cover object-top"
+														/>
+													</div>
+													<div>
+														<div class="text-body text-foreground font-medium">Sarah Chen</div>
+														<div class="text-caption text-muted-foreground">Real estate agent</div>
+													</div>
 												</div>
-												<div>
-													<div class="text-body text-foreground font-medium">Sarah Chen</div>
-													<div class="text-caption text-muted-foreground">Real estate agent</div>
+												<div class="flex gap-2">
+													<button
+														class="bg-primary flex h-8 w-8 items-center justify-center rounded-full"
+													>
+														<IconCheck class="text-primary-foreground h-4 w-4" />
+													</button>
+													<button
+														class="border-border flex h-8 w-8 items-center justify-center rounded-full border bg-white"
+													>
+														<IconX class="text-muted-foreground h-4 w-4" />
+													</button>
 												</div>
 											</div>
-											<div class="flex gap-2">
-												<button
-													class="bg-primary flex h-8 w-8 items-center justify-center rounded-full"
-												>
-													<IconCheck class="text-primary-foreground h-4 w-4" />
-												</button>
-												<button
-													class="border-border flex h-8 w-8 items-center justify-center rounded-full border bg-white"
-												>
-													<IconX class="text-muted-foreground h-4 w-4" />
-												</button>
+											<div
+												class="border-border flex items-center justify-between rounded-lg border bg-gray-100 p-4"
+											>
+												<div class="flex items-center gap-3">
+													<div
+														class="bg-card flex h-10 w-10 items-center justify-center overflow-hidden rounded-full"
+													>
+														<img
+															src="/generated/image-a-professional-business-consultant-heads.webp"
+															alt="Mike Rodriguez"
+															class="image-top h-full w-full object-cover object-top"
+														/>
+													</div>
+													<div>
+														<div class="text-body text-foreground font-medium">Mike Rodriguez</div>
+														<div class="text-caption text-muted-foreground">Financial advisor</div>
+													</div>
+												</div>
+												<div class="flex gap-2">
+													<button
+														class="bg-primary flex h-8 w-8 items-center justify-center rounded-full"
+													>
+														<IconCheck class="text-primary-foreground h-4 w-4" />
+													</button>
+													<button
+														class="border-border flex h-8 w-8 items-center justify-center rounded-full border bg-white"
+													>
+														<IconX class="text-muted-foreground h-4 w-4" />
+													</button>
+												</div>
 											</div>
 										</div>
-										<div
-											class="flex items-center justify-between rounded-lg border border-border bg-gray-100 p-4"
-										>
-											<div class="flex items-center gap-3">
-												<div
-													class="bg-card flex h-10 w-10 items-center justify-center overflow-hidden rounded-full"
-												>
-													<img
-														src="/generated/image-a-professional-business-consultant-heads.webp"
-														alt="Mike Rodriguez"
-														class="image-top h-full w-full object-cover object-top"
-													/>
-												</div>
-												<div>
-													<div class="text-body text-foreground font-medium">Mike Rodriguez</div>
-													<div class="text-caption text-muted-foreground">Financial advisor</div>
-												</div>
-											</div>
-											<div class="flex gap-2">
-												<button
-													class="bg-primary flex h-8 w-8 items-center justify-center rounded-full"
-												>
-													<IconCheck class="text-primary-foreground h-4 w-4" />
-												</button>
-												<button
-													class="border-border flex h-8 w-8 items-center justify-center rounded-full border bg-white"
-												>
-													<IconX class="text-muted-foreground h-4 w-4" />
-												</button>
-											</div>
-										</div>
-									</div>
 									</div>
 								</div>
 							{:else if feature.visualization === "profile"}
 								<div class="flex h-full w-full items-center justify-center">
 									<div class="w-full max-w-sm">
-									<div class="border-border rounded-lg border bg-white p-6">
-										<div class="mb-6 flex items-center gap-4">
+										<div class="border-border rounded-lg border bg-white p-6">
+											<div class="mb-6 flex items-center gap-4">
+												<div
+													class="bg-primary/10 flex h-16 w-16 flex-shrink-0 overflow-hidden rounded-full"
+												>
+													<img
+														src="/generated/image-a-professional-business-man-headshot-in-.webp"
+														alt="John Doe"
+														class="h-full w-full object-cover"
+													/>
+												</div>
+												<div class="flex-1">
+													<h4 class="text-headline text-foreground">John Doe</h4>
+													<p class="text-caption text-muted-foreground">Business consultant</p>
+												</div>
+											</div>
 											<div
-												class="bg-primary/10 flex h-16 w-16 flex-shrink-0 overflow-hidden rounded-full"
+												class="text-caption text-muted-foreground mb-6 text-left leading-relaxed"
 											>
-												<img
-													src="/generated/image-a-professional-business-man-headshot-in-.webp"
-													alt="John Doe"
-													class="h-full w-full object-cover"
-												/>
+												Experienced business consultant specializing in growth strategies for small
+												businesses.
 											</div>
-											<div class="flex-1">
-												<h4 class="text-headline text-foreground">John Doe</h4>
-												<p class="text-caption text-muted-foreground">Business consultant</p>
+											<div class="flex flex-wrap justify-start gap-2">
+												<span
+													class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
+													>Strategy</span
+												>
+												<span
+													class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
+													>Growth</span
+												>
+												<span
+													class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
+													>SMB</span
+												>
 											</div>
 										</div>
-										<div class="text-caption text-muted-foreground mb-6 text-left leading-relaxed">
-											Experienced business consultant specializing in growth strategies for small
-											businesses.
-										</div>
-										<div class="flex flex-wrap justify-start gap-2">
-											<span
-												class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
-												>Strategy</span
-											>
-											<span
-												class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
-												>Growth</span
-											>
-											<span
-												class="text-muted-foreground text-caption border-border rounded-full border bg-white px-3 py-1"
-												>SMB</span
-											>
-										</div>
-									</div>
 									</div>
 								</div>
 							{/if}
