@@ -218,12 +218,12 @@
 												>
 													<img
 														src="/generated/image-a-professional-business-man-headshot-in-.webp"
-														alt="John Doe"
+														alt="John Smith"
 														class="h-full w-full object-cover"
 													/>
 												</div>
 												<div class="flex-1">
-													<h4 class="text-headline text-foreground">John Doe</h4>
+													<h4 class="text-headline text-foreground">John Smith</h4>
 													<p class="text-caption text-muted-foreground">Business consultant</p>
 												</div>
 											</div>
