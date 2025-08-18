@@ -5,6 +5,7 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 	import ProcessSteps from "$lib/components/layout/ProcessSteps.svelte";
+	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 </script>
 
 <CustomerCardHero
@@ -94,6 +95,53 @@
 				"Bruce uses your profile to personalize introductions"
 			],
 			visualization: "profile"
+		}
+	]}
+/>
+
+<Testimonials
+	testimonials={[
+		{
+			name: "Sergio Michel",
+			position: "Residential Mortgages",
+			company: "PMG Loans",
+			quote: "Wow, this is a game changer for networking. I'm so excited about the possibilities!",
+			image: "/uploaded/placeholder-1.png"
+		},
+		{
+			name: "Chris Brooke",
+			position: "Property & Casualty Insurance",
+			company: "Farmer's Insurance",
+			quote: "Impressive. It's just like talking to a Human!",
+			image: "/uploaded/placeholder-2.png"
+		},
+		{
+			name: "Rajeev Krishnan",
+			position: "Digital Marketing",
+			company: "TitanX Marketing",
+			quote: "Exciting and powerful. This is going to generate so many leads and referrals!",
+			image: "/uploaded/placeholder-3.png"
+		},
+		{
+			name: "Ivan Jue",
+			position: "Life and Disability Insurance",
+			company: "World Financial Group. Inc.",
+			quote: "This solves one of the biggest pains in networking.",
+			image: "/uploaded/placeholder-4.png"
+		},
+		{
+			name: "Frank Dias",
+			position: "Mobile Notary",
+			company: "Silicon Valley Signings",
+			quote: "This is so cool! This makes networking effortless!",
+			image: "/uploaded/placeholder-5.png"
+		},
+		{
+			name: "Shy Sayno",
+			position: "Business Consultant",
+			company: "NorthStar Strategic Partners, Inc",
+			quote: "Wow, I love it!",
+			image: "/uploaded/placeholder-6.png"
 		}
 	]}
 />
