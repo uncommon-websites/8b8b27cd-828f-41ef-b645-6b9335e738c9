@@ -34,9 +34,9 @@
 			imageSrc: "/uploaded/1755544659422-dvivmwx.webp"
 		},
 		{
-			name: "Daniel Kim",
-			position: "Construction Foreman",
-			imageSrc: "/uploaded/image-5.png"
+			name: "Robert Harrison",
+			position: "Attorney (Estate Planning)",
+			imageSrc: "/uploaded/1755545042984-oceywn4.webp"
 		}
 	]}
 />
