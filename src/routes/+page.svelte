@@ -29,9 +29,9 @@
 			imageSrc: "/uploaded/1755544315306-58d3rsq.webp"
 		},
 		{
-			name: "Victor Ramirez",
-			position: "Landscaping Specialist",
-			imageSrc: "/uploaded/image-4.png"
+			name: "Sofia Martinez",
+			position: "Home Services Pro (Contractor)",
+			imageSrc: "/uploaded/1755544659422-dvivmwx.webp"
 		},
 		{
 			name: "Daniel Kim",
