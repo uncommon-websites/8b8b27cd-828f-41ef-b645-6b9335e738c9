@@ -14,9 +14,9 @@
 	centered={true}
 	customers={[
 		{
-			name: "Marcus Thompson",
-			position: "Insurance Agent",
-			imageSrc: "/uploaded/1755544315306-58d3rsq.webp"
+						name: "Ethan Brooks",
+			position: "Real Estate Agent",
+			imageSrc: "/uploaded/1755543865892-mfb960d.webp"
 		},
 		{
 			name: "Mei Chen",
@@ -24,9 +24,9 @@
 			imageSrc: "/uploaded/1755544033159-wysiiy3.webp"
 		},
 		{
-			name: "Maya Patel",
-			position: "Expert Carpenter",
-			imageSrc: "/uploaded/image-3.png"
+		name: "Marcus Thompson",
+			position: "Insurance Agent",
+			imageSrc: "/uploaded/1755544315306-58d3rsq.webp"
 		},
 		{
 			name: "Victor Ramirez",
