@@ -49,8 +49,8 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Get Started",
-	href: "https://app.bruce.bot/onboarding"
+	label: "Log in",
+	href: "https://app.bruce.bot/users/log_in_otp"
 };
 
 export const navigation: NavItem[] = [
