@@ -133,6 +133,7 @@
 	<div
 		class="section-py section-px sticky top-0 flex min-h-screen w-full items-center overflow-hidden"
 	>
+		<div class="container mx-auto w-full">
 		<div
 			bind:this={carouselRef}
 			class={[
@@ -188,17 +189,18 @@
 			<div class="min-w-(--gap) lg:min-w-[calc(var(--gap)*3)]"></div>
 		</div>
 
-		<!-- Pagination Indicators -->
-		<div class="absolute bottom-8 left-1/2 flex -translate-x-1/2 justify-center gap-2">
-			{#each testimonials as _, index}
-				<div
-					class="focus:ring-primary-500 bg-emphasis-dim size-1.5 rounded-full transition-all duration-300 ease-in-out dark:bg-gray-700"
-					class:opacity-50={current !== index}
-					class:w-8={current === index}
-					class:dark:bg-gray-400={current === index}
-					aria-hidden="true"
-				></div>
-			{/each}
+			<!-- Pagination Indicators -->
+			<div class="absolute bottom-8 left-1/2 flex -translate-x-1/2 justify-center gap-2">
+				{#each testimonials as _, index}
+					<div
+						class="focus:ring-primary-500 bg-emphasis-dim size-1.5 rounded-full transition-all duration-300 ease-in-out dark:bg-gray-700"
+						class:opacity-50={current !== index}
+						class:w-8={current === index}
+						class:dark:bg-gray-400={current === index}
+						aria-hidden="true"
+					></div>
+				{/each}
+			</div>
 		</div>
 	</div>
 </section>
