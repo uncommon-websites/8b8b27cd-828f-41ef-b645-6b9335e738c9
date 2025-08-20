@@ -9,7 +9,7 @@
 	const IconChevronRight = "svg";
 
 	// Utils
-	import { cta, loginButton, navigation } from "$lib/navigation";
+	import { loginButton, navigation } from "$lib/navigation";
 	import { beforeNavigate } from "$app/navigation";
 
 	// Props
@@ -112,9 +112,6 @@
 	</ul>
 
 	<div class="section-px section-pb container mx-auto w-full flex flex-col gap-3">
-		<Button size="lg" variant="primary" class="z-0 w-full md:w-auto" href={cta.href}
-			>{cta.label}</Button
-		>
 		<Button size="lg" variant="ghost" class="z-0 w-full md:w-auto" href={loginButton.href}
 			>{loginButton.label}</Button
 		>
@@ -123,7 +120,6 @@
 
 <div class="flex items-center justify-end gap-2">
 	<Button size="sm" variant="ghost" href={loginButton.href}>{loginButton.label}</Button>
-	<Button size="sm" variant="secondary" href={cta.href}>{cta.label}</Button>
 
 	<Button
 		aria-label="Toggle nav"

@@ -9,7 +9,7 @@
 	import DesktopNavDropdown from "./_DesktopNavDropdown.svelte";
 
 	// Utils
-	import { cta, loginButton, navigation } from "$lib/navigation";
+	import { loginButton, navigation } from "$lib/navigation";
 
 	// Props
 	const { items }: Props = $props();
@@ -53,7 +53,6 @@
 	</NavigationMenu.Root>
 
 	<Button size="sm" variant="ghost" href={loginButton.href} class="ml-1">{loginButton.label}</Button>
-	<Button size="sm" variant="secondary" href={cta.href} class="ml-1">{cta.label}</Button>
 </div>
 
 <style lang="postcss">
