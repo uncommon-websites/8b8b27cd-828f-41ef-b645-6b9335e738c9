@@ -127,7 +127,7 @@
 			position: "Life and Disability Insurance",
 			company: "World Financial Group. Inc.",
 			quote: "This solves one of the biggest pains in networking.",
-			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=641a2477e4b0c2b55126120f"
+			image: "/uploaded/1755722360857-yx61iya.png"
 		},
 		{
 			name: "Frank Dias",
