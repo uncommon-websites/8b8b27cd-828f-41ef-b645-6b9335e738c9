@@ -50,7 +50,29 @@ export type NavItem = {
 
 export const cta = {
 	label: "Get Started",
-	href: "https://bruce.bot/onboarding"
+	href: "https://bruce.bot/onboarding",
+	// Function to get href with preserved query parameters
+	getHrefWithParams: () => {
+		if (typeof window === 'undefined') {
+			// Server-side rendering fallback
+			return "https://bruce.bot/onboarding";
+		}
+		
+		try {
+			const currentUrl = new URL(window.location.href);
+			const onboardingUrl = new URL("https://bruce.bot/onboarding");
+			
+			// Preserve all current query parameters
+			currentUrl.searchParams.forEach((value, key) => {
+				onboardingUrl.searchParams.set(key, value);
+			});
+			
+			return onboardingUrl.toString();
+		} catch (error) {
+			console.warn('Failed to preserve query parameters:', error);
+			return "https://bruce.bot/onboarding";
+		}
+	}
 };
 
 export const loginButton = {

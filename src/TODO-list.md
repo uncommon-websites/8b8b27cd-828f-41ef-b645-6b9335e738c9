@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-08-20T10:03:25.555Z -->
+<!-- Updated: 2025-08-20T10:13:11.744Z -->
 
 # Current Todo List State
 
@@ -38,3 +38,10 @@
 - [x] Check Hero component CTA usage
 - [x] Ensure all other page CTAs work correctly
 - [x] Run comprehensive error check and fix all issues
+- [x] Create utility function to preserve query parameters in onboarding URL
+- [x] Update navigation.ts to use dynamic URL generation instead of static href
+- [x] Update CallToAction component to use dynamic URL
+- [x] Update CustomerCardHero component to use dynamic URL
+- [x] Update StyledHero component to use dynamic URL
+- [x] Test that all components work with query parameter preservation
+- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values

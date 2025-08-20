@@ -49,6 +49,7 @@
 		callsToAction?: Array<{
 			href: string;
 			label: string;
+			getHrefWithParams?: () => string;
 		}>; // A maximum of two calls to action, with the first one being primary and the second one being secondary
 	};
 
@@ -67,18 +68,18 @@
 
 		{#if callsToAction.length > 0}
 			<div class="flex gap-4" data-enter>
-				{#each callsToAction as cta, index}
+				{#each callsToAction as ctaItem, index}
 					<Button
-						href={cta.href}
+						href={ctaItem.getHrefWithParams ? ctaItem.getHrefWithParams() : ctaItem.href}
 						size="lg"
 						variant={index % 2 === 0 ? "primary" : "secondary"}
-						class="max-lg:hidden">{cta.label}</Button
+						class="max-lg:hidden">{ctaItem.label}</Button
 					>
 					<Button
-						href={cta.href}
+						href={ctaItem.getHrefWithParams ? ctaItem.getHrefWithParams() : ctaItem.href}
 						size="md"
 						variant={index % 2 === 0 ? "primary" : "secondary"}
-						class="lg:hidden">{cta.label}</Button
+						class="lg:hidden">{ctaItem.label}</Button
 					>
 				{/each}
 			</div>
