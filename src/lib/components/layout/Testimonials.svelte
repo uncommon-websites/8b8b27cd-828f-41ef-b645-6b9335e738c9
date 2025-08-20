@@ -143,7 +143,7 @@
 			{#each testimonials as testimonial}
 				<article
 					class={[
-						"lg:container-xs  lg:min-w-[50%] lg:grid-cols-[2fr_3fr]",
+						"max-w-2xl lg:min-w-[45%] lg:grid-cols-[2fr_3fr]",
 						"items-between grid grid-cols-1 gap-8",
 						"bg-card dark:text-white",
 						"aspect-video max-w-full min-w-full xl:aspect-[auto]",
