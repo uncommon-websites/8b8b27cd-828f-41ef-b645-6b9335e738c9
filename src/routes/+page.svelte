@@ -106,42 +106,48 @@
 			position: "Residential Mortgages",
 			company: "PMG Loans",
 			quote: "Wow, this is a game changer for networking. I'm so excited about the possibilities!",
-			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=66d73a21e4b09908bf432097"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=66d73a21e4b09908bf432097",
+			website: "https://www.sergiomortgage.com/"
 		},
 		{
 			name: "Chris Brooke",
 			position: "Property & Casualty Insurance",
 			company: "Farmer's Insurance",
 			quote: "Impressive. It's just like talking to a Human!",
-			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=67059983e4b0a4e5a6006c9b"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=67059983e4b0a4e5a6006c9b",
+			website: "https://agents.farmers.com/ca/morgan-hill/christopher-brooke/"
 		},
 		{
 			name: "Rajeev Krishnan",
 			position: "Digital Marketing",
 			company: "TitanX Marketing",
 			quote: "Exciting and powerful. This is going to generate so many leads and referrals!",
-			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=67d10aaee4b0340086d44106"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=67d10aaee4b0340086d44106",
+			website: "https://titanxmarketing.us/"
 		},
 		{
 			name: "Ivan Jue",
 			position: "Life and Disability Insurance",
 			company: "World Financial Group. Inc.",
 			quote: "This solves one of the biggest pains in networking.",
-			image: "/uploaded/1755722360857-yx61iya.png"
+			image: "/uploaded/1755722360857-yx61iya.png",
+			website: "https://worldsystembuilder.com/mypage/ivanjue/"
 		},
 		{
 			name: "Frank Dias",
 			position: "Mobile Notary",
 			company: "Silicon Valley Signings",
 			quote: "This is so cool! This makes networking effortless!",
-			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=63a6431e4303fe0001e92a2c"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=63a6431e4303fe0001e92a2c",
+			website: "https://siliconvalleysignings.com/"
 		},
 		{
 			name: "Shy Sayno",
 			position: "Business Consultant",
 			company: "NorthStar Strategic Partners, Inc",
 			quote: "Wow, I love it!",
-			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=66312f49e4b0d3ca42eb3c3d"
+			image: "https://bnisfbay.com/web/open/appsCmsImageDownload?imageObjectId=66312f49e4b0d3ca42eb3c3d",
+			website: "https://northstar-sp.com/"
 		}
 	]}
 />
