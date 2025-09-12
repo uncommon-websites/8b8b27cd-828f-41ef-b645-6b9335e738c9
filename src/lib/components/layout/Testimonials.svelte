@@ -150,58 +150,94 @@
 				]}
 			>
 				{#each testimonials as testimonial}
-					<article
-						class={[
-							"max-w-2xl lg:min-w-[45%] lg:grid-cols-[2fr_3fr]",
-							"items-between grid grid-cols-1 gap-8",
-							"bg-card dark:text-white",
-							"aspect-video max-w-full min-w-full xl:aspect-[auto]",
-							"transform-gpu transition-transform duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform",
-							"rounded-(--outer-radius) p-(--gap)",
-							"border-border border contain-layout",
-							testimonial.link ? "cursor-pointer" : ""
-						]}
-						style:transform="translateX(calc(-{scrollProgress} * {maxScrollDistance}px))"
-						onclick={() => handleCardClick(testimonial.link)}
-						role={testimonial.link ? "button" : undefined}
-						tabindex={testimonial.link ? "0" : undefined}
-						onkeydown={(e) => {
-							if (testimonial.link && (e.key === "Enter" || e.key === " ")) {
-								e.preventDefault();
-								handleCardClick(testimonial.link);
-							}
-						}}
-					>
-						<div class="hidden overflow-clip rounded-[max(var(--inner-radius),2px)] lg:block">
-							{#if testimonial.image}
-								<img
-									src={testimonial.image}
-									alt="{testimonial.name} testimonial"
-									loading="lazy"
-									class="aspect-[3/4] h-full w-full object-cover"
-								/>
-							{/if}
-						</div>
-						<div class="flex flex-col justify-between gap-12">
-							<q class="text-title2 max-w-prose">{testimonial.quote}</q>
-							<cite class="text-caption flex items-center gap-3 not-italic">
+					{#if testimonial.link}
+						<button
+							class={[
+								"max-w-2xl lg:min-w-[45%] lg:grid-cols-[2fr_3fr]",
+								"items-between grid grid-cols-1 gap-8",
+								"bg-card dark:text-white",
+								"aspect-video max-w-full min-w-full xl:aspect-[auto]",
+								"transform-gpu transition-transform duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform",
+								"rounded-(--outer-radius) p-(--gap)",
+								"border-border border contain-layout cursor-pointer text-left"
+							]}
+							style:transform="translateX(calc(-{scrollProgress} * {maxScrollDistance}px))"
+							onclick={() => handleCardClick(testimonial.link)}
+						>
+							<div class="hidden overflow-clip rounded-[max(var(--inner-radius),2px)] lg:block">
 								{#if testimonial.image}
 									<img
 										src={testimonial.image}
 										alt="{testimonial.name} testimonial"
 										loading="lazy"
-										class="size-12 rounded-full object-cover lg:hidden"
+										class="aspect-[3/4] h-full w-full object-cover"
 									/>
 								{/if}
-								<div>
-									<p class="text-callout">{testimonial.name}</p>
-									<p class="text-muted-foreground">
-										{testimonial.position}, {testimonial.company}
-									</p>
-								</div>
-							</cite>
-						</div>
-					</article>
+							</div>
+							<div class="flex flex-col justify-between gap-12">
+								<q class="text-title2 max-w-prose">{testimonial.quote}</q>
+								<cite class="text-caption flex items-center gap-3 not-italic">
+									{#if testimonial.image}
+										<img
+											src={testimonial.image}
+											alt="{testimonial.name} testimonial"
+											loading="lazy"
+											class="size-12 rounded-full object-cover lg:hidden"
+										/>
+									{/if}
+									<div>
+										<p class="text-callout">{testimonial.name}</p>
+										<p class="text-muted-foreground">
+											{testimonial.position}, {testimonial.company}
+										</p>
+									</div>
+								</cite>
+							</div>
+						</button>
+					{:else}
+						<article
+							class={[
+								"max-w-2xl lg:min-w-[45%] lg:grid-cols-[2fr_3fr]",
+								"items-between grid grid-cols-1 gap-8",
+								"bg-card dark:text-white",
+								"aspect-video max-w-full min-w-full xl:aspect-[auto]",
+								"transform-gpu transition-transform duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform",
+								"rounded-(--outer-radius) p-(--gap)",
+								"border-border border contain-layout"
+							]}
+							style:transform="translateX(calc(-{scrollProgress} * {maxScrollDistance}px))"
+						>
+							<div class="hidden overflow-clip rounded-[max(var(--inner-radius),2px)] lg:block">
+								{#if testimonial.image}
+									<img
+										src={testimonial.image}
+										alt="{testimonial.name} testimonial"
+										loading="lazy"
+										class="aspect-[3/4] h-full w-full object-cover"
+									/>
+								{/if}
+							</div>
+							<div class="flex flex-col justify-between gap-12">
+								<q class="text-title2 max-w-prose">{testimonial.quote}</q>
+								<cite class="text-caption flex items-center gap-3 not-italic">
+									{#if testimonial.image}
+										<img
+											src={testimonial.image}
+											alt="{testimonial.name} testimonial"
+											loading="lazy"
+											class="size-12 rounded-full object-cover lg:hidden"
+										/>
+									{/if}
+									<div>
+										<p class="text-callout">{testimonial.name}</p>
+										<p class="text-muted-foreground">
+											{testimonial.position}, {testimonial.company}
+										</p>
+									</div>
+								</cite>
+							</div>
+						</article>
+					{/if}
 				{/each}
 				<!-- Empty spacer to ensure last card has breathing room -->
 				<div class="min-w-(--gap) lg:min-w-[calc(var(--gap)*3)]"></div>
