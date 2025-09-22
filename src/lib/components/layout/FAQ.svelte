@@ -71,9 +71,11 @@ Props:
 
 <section class="section-px section-py" {...rest}>
 	<div class="container mx-auto">
-		<SectionHeader {title} {subtitle} />
+		<div class="text-center">
+			<SectionHeader {title} {subtitle} />
+		</div>
 		
-		<div class="max-w-3xl">
+		<div class="max-w-3xl mx-auto">
 			{#each faqs as faq, index}
 				{@const isOpen = openItems.has(index)}
 				<div class="border-border border-b last:border-b-0">
