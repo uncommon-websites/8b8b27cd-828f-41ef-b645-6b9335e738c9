@@ -80,7 +80,7 @@ Props:
 					<button
 						class={[
 							"flex w-full items-center justify-between gap-4 py-6 text-left transition-colors duration-200",
-							"hover:text-emphasis focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+							"hover:text-emphasis focus:outline-none"
 						]}
 						onclick={() => toggleItem(index)}
 						onkeydown={(e) => handleKeydown(e, index)}
