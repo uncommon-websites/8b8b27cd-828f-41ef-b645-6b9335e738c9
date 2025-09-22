@@ -73,7 +73,7 @@ Props:
 	<div class="container mx-auto">
 		<SectionHeader {title} {subtitle} />
 		
-		<div class="mx-auto max-w-3xl">
+		<div class="max-w-3xl">
 			{#each faqs as faq, index}
 				{@const isOpen = openItems.has(index)}
 				<div class="border-border border-b last:border-b-0">
