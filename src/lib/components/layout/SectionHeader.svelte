@@ -18,7 +18,7 @@
 
 <div
 	class={[
-		"section-pb-sm container-sm grid text-balance",
+		"section-pb-sm container-sm mx-auto grid text-balance text-center",
 		size === "lg" ? "text-display" : "text-title2"
 	]}
 >
