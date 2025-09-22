@@ -102,7 +102,7 @@ Props:
 						id="faq-answer-{index}"
 						class={[
 							"overflow-hidden transition-all duration-300 ease-in-out",
-							isOpen ? "max-h-96 pb-6" : "max-h-0"
+							isOpen ? "max-h-screen pb-6" : "max-h-0"
 						]}
 						aria-hidden={!isOpen}
 					>

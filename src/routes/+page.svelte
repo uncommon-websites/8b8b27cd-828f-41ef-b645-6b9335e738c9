@@ -161,36 +161,88 @@
 <FAQ
 	faqs={[
 		{
+			question: "What is Bruce?",
+			answer: "Bruce is an AI-powered matchmaking and engagement tool that helps people connect more effectively. It is not a networking group or organization—it's a technology platform designed to support individuals and communities in building stronger professional relationships."
+		},
+		{
 			question: "How does Bruce work?",
-			answer: "Bruce uses AI-powered matching to connect you with perfect referral partners through voice-first conversations. You start with a quick 5-minute discovery call where Bruce learns about your business needs and goals. Our AI then analyzes your requirements and finds complementary businesses in your network, prioritizing matches with the highest mutual benefit. You review potential partners and choose which connections interest you most through our double opt-in system."
+			answer: "You opt in voluntarily and share your own information with Bruce. Bruce runs matching rounds every day to keep the system fresh. Regular users are typically targeted to receive about one match per month, depending on network size, compatibility, and preferences (matches aren't guaranteed). Bruce will only match and introduce people who belong to the same organization or community. Double opt-in: an introduction is created only if both people say \"yes\" during the matching round—making intros highly valuable and actionable."
 		},
 		{
-			question: "What makes Bruce different from traditional networking?",
-			answer: "Unlike cold outreach that wastes 15+ hours weekly, Bruce automates warm introductions through conversational AI technology. We focus on quality over quantity, ensuring every connection has mutual benefit. Our voice-first approach creates more personal, human connections compared to typical networking platforms, and our AI matching system finds opportunities you might miss in traditional networking."
+			question: "Is Bruce a networking group?",
+			answer: "No. Bruce is not a networking group. It does not: Hold meetings. Create its own membership structure. Collect or use membership lists from outside organizations. Bruce is a technology layer that enhances existing organizations, chambers, and associations by making member-to-member connections easier and more effective."
 		},
 		{
-			question: "How accurate is the AI matching?",
-			answer: "Bruce's proprietary AI matching algorithm analyzes business compatibility by understanding your needs, goals, and ideal referral partner criteria. Our system provides percentage compatibility scores and focuses on complementary businesses rather than direct competitors. The AI continuously learns from feedback and match history to refine future recommendations, ensuring increasingly accurate matches over time."
+			question: "Can Bruce work with existing business groups?",
+			answer: "Yes. Bruce is designed to enhance any business networking environment, including: Chambers of commerce, Professional associations, Industry trade groups, Informal business communities."
 		},
 		{
-			question: "Is my data secure with Bruce?",
-			answer: "Yes, we're committed to secure and transparent data handling. All conversations are logged with your consent, and we use automated profile summarization for efficient matching while maintaining privacy. You have full control over your communication preferences with opt-in/opt-out options, and we follow industry-standard security practices to protect your business information."
+			question: "Where does Bruce get its information?",
+			answer: "From you. Bruce only uses the information that you personally provide when signing up. It does not access or import data from other groups or organizations."
 		},
 		{
-			question: "How long does it take to see results?",
-			answer: "Many users start seeing potential matches within days of their initial discovery call. Bruce crafts your professional profile from your conversation and immediately begins searching for compatible partners. The timeline for actual referrals depends on your industry and local network, but our AI-powered approach is designed to build referral networks 10x faster than traditional cold outreach methods."
+			question: "How does Bruce verify membership in an organization?",
+			answer: "When someone says they belong to a group, chamber, or association, Bruce may confirm this by checking publicly available information (such as an organization's public directory or website). Bruce does not collect, scrape, or store membership lists from organizations. Verification is limited to confirming a user's own claim using sources anyone could access."
 		},
 		{
-			question: "What types of businesses work best with Bruce?",
-			answer: "Bruce is ideal for service-based companies and business development professionals who rely on referrals. We work particularly well with professionals in real estate, financial services, insurance, legal services, home services, and consulting. Our system is designed for businesses that complement each other rather than compete directly, making it perfect for building diverse referral networks."
+			question: "What information is shared in an introduction?",
+			answer: "When Bruce creates an introduction, it shares the relevant profile details you provided—such as your name, role, organization/community, interests, and connection goals. If you include contact details (email, phone, calendar link), these may appear in introductions. Introductions occur only within your organization/community."
 		},
 		{
-			question: "Do I need to prepare anything for the discovery call?",
-			answer: "No preparation is needed! That's the beauty of Bruce's voice-first approach. Our conversational AI guides you through relevant questions during the 5-minute call, naturally learning about your business, ideal referral partners, and networking goals. The AI crafts your professional profile from this conversation, making the entire process effortless."
+			question: "How does Bruce use AI (LLMs), and what does that mean for my data visibility?",
+			answer: "Bruce uses large language models (LLMs) to generate introductions and assist with match conversations. Content you provide to Bruce may be accessible to the AI during matching and chat. During a conversation, your matched counterpart could ask questions that cause the AI to surface information you previously shared with Bruce. Do not add information to Bruce that you would not want a match to potentially see."
 		},
 		{
-			question: "How does the double opt-in system work?",
-			answer: "Our double opt-in system ensures mutual interest and consent before any introductions are made. When Bruce identifies a potential match, both parties review each other's profiles and choose whether they're interested in connecting. Only when both parties express interest does Bruce facilitate the introduction, ensuring every connection is wanted by both sides."
+			question: "Can I control what the AI can surface to my matches?",
+			answer: "Yes. You can edit or remove any information in your profile at any time. Anything you delete will no longer be used in future matches or introductions."
+		},
+		{
+			question: "How often will I get matched?",
+			answer: "Bruce runs matching rounds daily, but most users should expect about one match per month. Whether you receive a match in a given cycle depends on: The size and composition of your organization's member pool, Compatibility and preference constraints (e.g., goals, interests, location/proximity), Queue fairness (ensuring matches are spread out over time). Inviting peers grows the pool and increases everyone's match chances. PowerMatches can also accelerate this by giving you extra introductions between the monthly targets."
+		},
+		{
+			question: "What are PowerMatches?",
+			answer: "PowerMatches are bonus introductions that go beyond the regular monthly cadence. How they work: Bruce runs daily rounds, but regular users are targeted for ~1 match/month. As a thank you for inviting a fellow member to join Bruce, once that person's membership is verified, you both earn a PowerMatch. A PowerMatch is an extra connection that can be triggered between standard monthly matches. Over time, users who earn more lifetime PowerMatches are recognized as trustworthy contributors (their referrals expand the pool and improve match quality). As a reward, they receive a slight advantage in Bruce's ranking and scoring, improving their odds of higher-quality matches."
+		},
+		{
+			question: "What does \"double opt-in\" mean, exactly?",
+			answer: "Both parties must say \"yes\" during a matching round for an introduction to be made. Both must belong to the same networking group/organization. If either party declines or does not respond within the window, no intro is created—ensuring intros are mutual, timely, and actionable."
+		},
+		{
+			question: "How quickly should I respond?",
+			answer: "We recommend responding within 24 hours to keep momentum strong. For match decisions (before an intro is created), Bruce currently provides about 36 hours to choose \"yes\" or \"pass.\" This timebox helps us quickly convert good matches into intros—many business opportunities are time-sensitive, and faster intros mean fewer missed collaborations."
+		},
+		{
+			question: "Who can use Bruce?",
+			answer: "Anyone who belongs to a participating organization or community, including business professionals, entrepreneurs, association members, and community leaders looking to deepen relationships within their group."
+		},
+		{
+			question: "Does Bruce replace networking events?",
+			answer: "No. Bruce complements networking events and communities. Events create opportunities to meet people; Bruce helps you follow up, match with the right people, and stay engaged afterward."
+		},
+		{
+			question: "What makes Bruce different?",
+			answer: "AI-driven matching (not random pairings), Daily rounds, monthly targets for matches, Double opt-in to ensure intros are mutual and actionable, PowerMatches to accelerate extra introductions and reward community growth, Focused on connections within your organization/community, Lightweight workflow that saves time and improves networking ROI."
+		},
+		{
+			question: "Is my data safe?",
+			answer: "Bruce focuses on practical privacy in an AI environment: Bruce does not import external membership lists. Your details may appear to your matches within your community during introductions and chat. You can update or remove your profile info at any time, and those changes apply to future matches. Bruce does not sell or export your data to outside organizations."
+		},
+		{
+			question: "How does Bruce benefit organizations?",
+			answer: "Business groups, chambers, and associations use Bruce to: Improve member engagement and retention, Offer more value by creating better connections, Save leaders time by automating introductions and follow-ups, Strengthen overall community cohesion."
+		},
+		{
+			question: "Why was Bruce created?",
+			answer: "To solve a common problem: helping people build stronger, more meaningful connections in less time—with better matches, easier follow-ups, and more natural conversation flow."
+		},
+		{
+			question: "How do I get started?",
+			answer: "Sign up and add your profile details. Bruce runs daily matching rounds and targets you for about one match per month. If both sides say \"yes,\" Bruce creates a double opt-in introduction. Earn PowerMatches to accelerate extra introductions."
+		},
+		{
+			question: "What's the main takeaway?",
+			answer: "Bruce is an AI engagement platform—not a networking group. It enhances the organizations and communities you already belong to by creating double opt-in introductions, rewarding community growth through PowerMatches, and helping members build stronger professional relationships—quickly and with momentum."
 		}
 	]}
 />
