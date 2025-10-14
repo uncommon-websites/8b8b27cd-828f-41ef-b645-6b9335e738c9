@@ -81,7 +81,7 @@ Props:
 				<div class="border-border border-b last:border-b-0">
 					<button
 						class={[
-							"flex w-full items-center justify-between gap-4 py-6 text-left transition-colors duration-200",
+							"flex w-full items-center justify-between gap-4 py-6 text-left transition-colors duration-200 cursor-pointer",
 							"hover:text-emphasis focus:outline-none"
 						]}
 						onclick={() => toggleItem(index)}
