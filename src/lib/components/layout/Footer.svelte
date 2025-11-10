@@ -20,14 +20,30 @@
 		class="section-px relative z-10 container mx-auto grid h-full content-between items-start gap-16 gap-x-32 pt-10 lg:grid-cols-2 lg:gap-32"
 	>
 		<!-- Navigation sections with editorial styling -->
-		<div class="text-headline flex items-center gap-4">
-			<!-- <Logo class="size-7" /> -->
-			<div class="text-headline">
-				{CONFIG.companyName}<sup
-					class="ml-0.5 align-super text-[.25em]"
-					style="color: var(--color-foreground);">TM</sup
-				>
+		<div class="text-headline flex flex-col gap-3">
+			<div class="flex items-center gap-4">
+				<!-- <Logo class="size-7" /> -->
+				<div class="text-headline">
+					{CONFIG.companyName}<sup
+						class="ml-0.5 align-super text-[.25em]"
+						style="color: var(--color-foreground);">TM</sup
+					>
+				</div>
 			</div>
+			<a 
+				href="https://bruce.bot/@jesse" 
+				target="_blank" 
+				rel="noopener"
+				class="inline-flex items-center transition-opacity duration-300 hover:opacity-70"
+			>
+				<img 
+					src="https://bruce.bot/images/embed/logo_dark.svg" 
+					alt="Bruce - Bruce.bot" 
+					width="32"
+					height="32"
+					class="h-8 w-8"
+				/>
+			</a>
 		</div>
 
 		<ul class="grid grid-cols-2 gap-8 gap-y-16 lg:grid-cols-3">
