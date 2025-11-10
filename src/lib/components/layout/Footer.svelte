@@ -63,8 +63,13 @@
 			style="border-color: var(--color-border); color: var(--color-muted-foreground);"
 		>
 			<div class="grid grid-cols-2 items-start justify-between gap-4 gap-x-32 text-sm">
-				<div>
-					© 2025 Tanda Technologies, Inc.
+				<div class="flex flex-col gap-2">
+					<a href="https://bruce.bot/@jesse" target="_blank" rel="noopener" class="inline-flex items-center gap-2 no-underline">
+						<img src="https://bruce.bot/images/embed/logo_dark.svg" alt="Bruce - Bruce.bot" width="32" class="inline-block" />
+					</a>
+					<div>
+						© 2025 Tanda Technologies, Inc.
+					</div>
 				</div>
 				<div class="flex items-baseline justify-end gap-3 lg:justify-start">
 					<div class="ml-auto hidden justify-self-end lg:block"><Signature /></div>
